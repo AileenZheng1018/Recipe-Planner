@@ -132,7 +132,19 @@ def _load_recipe_steps() -> dict:
 
 @app.get("/health")
 def health():
+    """轻量健康检查，不加载数据，避免触发大文件读取。"""
     return {"status": "ok"}
+
+
+@app.on_event("startup")
+def _startup_check():
+    """启动时检查数据文件是否存在，便于在 Railway 日志中发现问题。"""
+    import os
+    for name in ("agent.py", "ingredients.json", "recipes.json", "recipe_steps.json"):
+        p = ROOT / name
+        exists = p.exists()
+        print(f"[startup] {name}: {'ok' if exists else 'MISSING'}", flush=True)
+    print(f"[startup] PORT={os.environ.get('PORT', 'not set')}", flush=True)
 
 
 def _ingredient_display_name(ing_id: str, ingredients_db: dict, lang: str) -> str:
