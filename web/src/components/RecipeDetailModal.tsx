@@ -36,7 +36,7 @@ export default function RecipeDetailModal({
     setMeal(initialMeal)
   }, [initialMeal.mealTime, initialMeal.nameEn])
   const [reminderPhase, setReminderPhase] = useState<ReminderPhase>('idle')
-  const [startedAt, setStartedAt] = useState<Date | null>(null)
+  const [_startedAt, setStartedAt] = useState<Date | null>(null)
   const [showFinished, setShowFinished] = useState(false)
   const [actualMins, setActualMins] = useState<number | ''>('')
 
@@ -48,8 +48,6 @@ export default function RecipeDetailModal({
 
   useEffect(() => {
     if (reminderPhase !== 'scheduled') return
-    const now = new Date()
-    const currentMins = now.getHours() * 60 + now.getMinutes()
     const check = () => {
       const n = new Date()
       const cur = n.getHours() * 60 + n.getMinutes()
