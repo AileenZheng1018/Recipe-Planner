@@ -3,3 +3,6 @@
 # 可选：如需 JSON 校验可加 jsonschema
 # 测试
 pytest>=7.0
+
+# 后端 API（Railway 从仓库根部署时用）
+-r backend/requirements.txt
