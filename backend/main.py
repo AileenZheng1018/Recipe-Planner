@@ -99,12 +99,14 @@ class DayMealsOut(BaseModel):
 
 
 class ShoppingListItemOut(BaseModel):
-    """购物清单一项。"""
+    """购物清单一项；name_en/name_zh 来自 ingredients.json，便于前端显示中文。"""
     ingredient_id: str
     grams: float
     suggested_grams: float | None = None
     suggested_price: float | None = None
     user_fill: bool = True
+    name_en: str | None = None
+    name_zh: str | None = None
 
 
 class PlanResponse(BaseModel):
@@ -226,29 +228,27 @@ def api_plan(body: PlanRequest) -> PlanResponse:
         options_per_slot=max(2, min(10, int(options_per_slot))),
     )
 
-    # 购物清单：每项含 grams（需补足量）；若有 purchase_options 则算最优购买 suggested_grams/suggested_price，否则 user_fill=True 由用户填写
+    # 购物清单：每项含 grams、name_en/name_zh（从 ingredients.json 取；无 name_zh 时前端用 getIngredientName 回退）
     shopping_list_arr = []
     for ing_id, need_g in shopping_list.items():
         need_g = round(need_g, 0)
         ing = ingredients_db.get(ing_id, {})
         opts = ing.get("purchase_options")
+        name_en = _ingredient_display_name(ing_id, ingredients_db, "en")
+        name_zh = ing.get("name_zh") or _ingredient_display_name(ing_id, ingredients_db, "zh")
+        if name_zh == name_en and not ing.get("name_zh"):
+            name_zh = None  # 避免把英文 slug 当中文返回，让前端用 getIngredientName 回退
+        base = {
+            "ingredient_id": ing_id,
+            "grams": need_g,
+            "name_en": name_en,
+            "name_zh": name_zh,
+        }
         if opts and isinstance(opts, list):
             sug_g, sug_p = _best_purchase_option(need_g, opts)
-            shopping_list_arr.append({
-                "ingredient_id": ing_id,
-                "grams": need_g,
-                "suggested_grams": sug_g,
-                "suggested_price": round(sug_p, 2) if sug_p is not None else None,
-                "user_fill": False,
-            })
+            shopping_list_arr.append({**base, "suggested_grams": sug_g, "suggested_price": round(sug_p, 2) if sug_p is not None else None, "user_fill": False})
         else:
-            shopping_list_arr.append({
-                "ingredient_id": ing_id,
-                "grams": need_g,
-                "suggested_grams": None,
-                "suggested_price": None,
-                "user_fill": True,
-            })
+            shopping_list_arr.append({**base, "suggested_grams": None, "suggested_price": None, "user_fill": True})
 
     return PlanResponse(
         daily_meals=daily_meals,

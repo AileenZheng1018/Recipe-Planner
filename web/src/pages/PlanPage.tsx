@@ -156,8 +156,8 @@ export default function PlanPage() {
         const suggestedP = entry.suggested_price ?? 0
         return {
           ingredient_id: entry.ingredient_id,
-          nameEn: getIngredientName(entry.ingredient_id, 'en'),
-          nameZh: getIngredientName(entry.ingredient_id, 'zh'),
+          nameEn: entry.name_en ?? getIngredientName(entry.ingredient_id, 'en'),
+          nameZh: entry.name_zh ?? getIngredientName(entry.ingredient_id, 'zh'),
           plannedQty: grams,
           actualQty: userFill ? 0 : (suggestedG || grams),
           price: userFill ? 0 : suggestedP,

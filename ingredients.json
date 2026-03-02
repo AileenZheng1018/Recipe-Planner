@@ -17,7 +17,9 @@
       "room_temp_days": null,
       "refrigerated_days": 3,
       "frozen_days": 90
-    }
+    },
+    "name": "Beef Sirloin",
+    "name_zh": "牛沙朗"
   },
   "beef_brisket": {
     "category": "meat_red",
@@ -37,7 +39,9 @@
       "room_temp_days": null,
       "refrigerated_days": 3,
       "frozen_days": 90
-    }
+    },
+    "name": "Beef Brisket",
+    "name_zh": "牛腩"
   },
   "beef_ribeye": {
     "category": "meat_red",
@@ -57,7 +61,9 @@
       "room_temp_days": null,
       "refrigerated_days": 3,
       "frozen_days": 90
-    }
+    },
+    "name": "Beef Ribeye",
+    "name_zh": "肋眼牛肉"
   },
   "beef_shank": {
     "category": "meat_red",
@@ -77,7 +83,9 @@
       "room_temp_days": null,
       "refrigerated_days": 3,
       "frozen_days": 90
-    }
+    },
+    "name": "Beef Shank",
+    "name_zh": "牛小腿"
   },
   "beef_mince": {
     "category": "meat_red",
@@ -97,7 +105,9 @@
       "room_temp_days": null,
       "refrigerated_days": 2,
       "frozen_days": 90
-    }
+    },
+    "name": "Beef Mince",
+    "name_zh": "牛肉碎"
   },
   "chicken_breast": {
     "category": "meat_poultry",
@@ -131,7 +141,9 @@
         "weight_g": 1200,
         "price": 5.99
       }
-    ]
+    ],
+    "name": "Chicken Breast",
+    "name_zh": "鸡胸肉"
   },
   "chicken_thigh": {
     "category": "meat_poultry",
@@ -151,7 +163,9 @@
       "room_temp_days": null,
       "refrigerated_days": 2,
       "frozen_days": 90
-    }
+    },
+    "name": "Chicken Thigh",
+    "name_zh": "鸡大腿"
   },
   "chicken_wing": {
     "category": "meat_poultry",
@@ -171,7 +185,9 @@
       "room_temp_days": null,
       "refrigerated_days": 2,
       "frozen_days": 90
-    }
+    },
+    "name": "Chicken Wing",
+    "name_zh": "鸡翅"
   },
   "pork_belly": {
     "category": "meat_red",
@@ -191,7 +207,9 @@
       "room_temp_days": null,
       "refrigerated_days": 3,
       "frozen_days": 90
-    }
+    },
+    "name": "Pork Belly",
+    "name_zh": "五花肉"
   },
   "pork_loin": {
     "category": "meat_red",
@@ -211,7 +229,9 @@
       "room_temp_days": null,
       "refrigerated_days": 3,
       "frozen_days": 90
-    }
+    },
+    "name": "Pork Loin",
+    "name_zh": "猪腰肉"
   },
   "pork_shoulder": {
     "category": "meat_red",
@@ -231,7 +251,9 @@
       "room_temp_days": null,
       "refrigerated_days": 3,
       "frozen_days": 90
-    }
+    },
+    "name": "Pork Shoulder",
+    "name_zh": "肘"
   },
   "lamb_chop": {
     "category": "meat_red",
@@ -251,7 +273,9 @@
       "room_temp_days": null,
       "refrigerated_days": 3,
       "frozen_days": 90
-    }
+    },
+    "name": "Lamb Chop",
+    "name_zh": "羊排"
   },
   "duck_breast": {
     "category": "meat_poultry",
@@ -271,7 +295,9 @@
       "room_temp_days": null,
       "refrigerated_days": 2,
       "frozen_days": 90
-    }
+    },
+    "name": "Duck Breast",
+    "name_zh": "鸭胸"
   },
   "salmon_atlantic": {
     "category": "fish",
@@ -291,7 +317,9 @@
       "room_temp_days": null,
       "refrigerated_days": 3,
       "frozen_days": 60
-    }
+    },
+    "name": "Salmon Atlantic",
+    "name_zh": "大西洋鲑鱼"
   },
   "cod_fillet": {
     "category": "fish",
@@ -311,7 +339,9 @@
       "room_temp_days": null,
       "refrigerated_days": 2,
       "frozen_days": 90
-    }
+    },
+    "name": "Cod Fillet",
+    "name_zh": "鳕鱼片"
   },
   "shrimp": {
     "category": "fish",
@@ -331,7 +361,9 @@
       "room_temp_days": null,
       "refrigerated_days": 2,
       "frozen_days": 90
-    }
+    },
+    "name": "Shrimp",
+    "name_zh": "虾"
   },
   "squid": {
     "category": "fish",
@@ -351,7 +383,9 @@
       "room_temp_days": null,
       "refrigerated_days": 2,
       "frozen_days": 90
-    }
+    },
+    "name": "Squid",
+    "name_zh": "乌贼"
   },
   "tuna_fresh": {
     "category": "fish",
@@ -371,7 +405,9 @@
       "room_temp_days": null,
       "refrigerated_days": 2,
       "frozen_days": 90
-    }
+    },
+    "name": "Tuna Fresh",
+    "name_zh": "新鲜金枪鱼"
   },
   "broccoli": {
     "category": "vegetable",
@@ -401,7 +437,9 @@
         "weight_g": 600,
         "price": 1.49
       }
-    ]
+    ],
+    "name": "Broccoli",
+    "name_zh": "西兰花"
   },
   "spinach": {
     "category": "vegetable",
@@ -421,7 +459,9 @@
       "room_temp_days": null,
       "refrigerated_days": 5,
       "frozen_days": 60
-    }
+    },
+    "name": "Spinach",
+    "name_zh": "菠菜"
   },
   "carrots": {
     "category": "vegetable",
@@ -441,7 +481,9 @@
       "room_temp_days": 7,
       "refrigerated_days": 14,
       "frozen_days": 90
-    }
+    },
+    "name": "Carrots",
+    "name_zh": "胡萝卜"
   },
   "potatoes": {
     "category": "vegetable",
@@ -461,7 +503,9 @@
       "room_temp_days": 30,
       "refrigerated_days": 45,
       "frozen_days": 120
-    }
+    },
+    "name": "Potatoes",
+    "name_zh": "土豆"
   },
   "tomato": {
     "category": "vegetable",
@@ -481,7 +525,9 @@
       "room_temp_days": 7,
       "refrigerated_days": 10,
       "frozen_days": null
-    }
+    },
+    "name": "Tomato",
+    "name_zh": "番茄"
   },
   "onion_yellow": {
     "category": "vegetable",
@@ -501,7 +547,9 @@
       "room_temp_days": 30,
       "refrigerated_days": 60,
       "frozen_days": null
-    }
+    },
+    "name": "Onion Yellow",
+    "name_zh": "洋葱黄"
   },
   "garlic": {
     "category": "vegetable",
@@ -521,7 +569,9 @@
       "room_temp_days": 60,
       "refrigerated_days": 90,
       "frozen_days": null
-    }
+    },
+    "name": "Garlic",
+    "name_zh": "蒜"
   },
   "bell_pepper_red": {
     "category": "vegetable",
@@ -541,7 +591,9 @@
       "room_temp_days": 7,
       "refrigerated_days": 14,
       "frozen_days": 60
-    }
+    },
+    "name": "Bell Pepper Red",
+    "name_zh": "甜椒红"
   },
   "napa_cabbage": {
     "category": "vegetable",
@@ -561,7 +613,9 @@
       "room_temp_days": 3,
       "refrigerated_days": 7,
       "frozen_days": 60
-    }
+    },
+    "name": "Napa Cabbage",
+    "name_zh": "纳帕卷心菜"
   },
   "bok_choy": {
     "category": "vegetable",
@@ -581,7 +635,9 @@
       "room_temp_days": 2,
       "refrigerated_days": 5,
       "frozen_days": 60
-    }
+    },
+    "name": "Bok Choy",
+    "name_zh": "白菜"
   },
   "shiitake_mushroom": {
     "category": "vegetable",
@@ -601,7 +657,9 @@
       "room_temp_days": null,
       "refrigerated_days": 7,
       "frozen_days": 90
-    }
+    },
+    "name": "Shiitake Mushroom",
+    "name_zh": "香菇"
   },
   "green_bean": {
     "category": "vegetable",
@@ -621,7 +679,9 @@
       "room_temp_days": null,
       "refrigerated_days": 5,
       "frozen_days": 90
-    }
+    },
+    "name": "Green Bean",
+    "name_zh": "绿豆"
   },
   "eggplant": {
     "category": "vegetable",
@@ -641,7 +701,9 @@
       "room_temp_days": 3,
       "refrigerated_days": 7,
       "frozen_days": 60
-    }
+    },
+    "name": "Eggplant",
+    "name_zh": "茄子"
   },
   "cucumber": {
     "category": "vegetable",
@@ -661,7 +723,9 @@
       "room_temp_days": 3,
       "refrigerated_days": 7,
       "frozen_days": null
-    }
+    },
+    "name": "Cucumber",
+    "name_zh": "黄瓜"
   },
   "ginger": {
     "category": "vegetable",
@@ -681,7 +745,9 @@
       "room_temp_days": 21,
       "refrigerated_days": 45,
       "frozen_days": 90
-    }
+    },
+    "name": "Ginger",
+    "name_zh": "姜"
   },
   "romaine_lettuce": {
     "category": "vegetable",
@@ -701,7 +767,9 @@
       "room_temp_days": null,
       "refrigerated_days": 7,
       "frozen_days": null
-    }
+    },
+    "name": "Romaine Lettuce",
+    "name_zh": "生菜"
   },
   "apples": {
     "category": "fruit",
@@ -721,7 +789,9 @@
       "room_temp_days": 7,
       "refrigerated_days": 14,
       "frozen_days": null
-    }
+    },
+    "name": "Apples",
+    "name_zh": "苹果"
   },
   "bananas": {
     "category": "fruit",
@@ -741,7 +811,9 @@
       "room_temp_days": 7,
       "refrigerated_days": 10,
       "frozen_days": 60
-    }
+    },
+    "name": "Bananas",
+    "name_zh": "香蕉"
   },
   "grapes": {
     "category": "fruit",
@@ -761,7 +833,9 @@
       "room_temp_days": 2,
       "refrigerated_days": 5,
       "frozen_days": 60
-    }
+    },
+    "name": "Grapes",
+    "name_zh": "葡萄"
   },
   "oranges": {
     "category": "fruit",
@@ -781,7 +855,9 @@
       "room_temp_days": 14,
       "refrigerated_days": 21,
       "frozen_days": null
-    }
+    },
+    "name": "Oranges",
+    "name_zh": "橙子"
   },
   "lemon": {
     "category": "fruit",
@@ -801,7 +877,9 @@
       "room_temp_days": 14,
       "refrigerated_days": 28,
       "frozen_days": null
-    }
+    },
+    "name": "Lemon",
+    "name_zh": "柠檬"
   },
   "avocado": {
     "category": "fruit",
@@ -821,7 +899,9 @@
       "room_temp_days": 5,
       "refrigerated_days": 7,
       "frozen_days": null
-    }
+    },
+    "name": "Avocado",
+    "name_zh": "牛油果"
   },
   "strawberry": {
     "category": "fruit",
@@ -841,7 +921,9 @@
       "room_temp_days": 1,
       "refrigerated_days": 5,
       "frozen_days": 180
-    }
+    },
+    "name": "Strawberry",
+    "name_zh": "草莓"
   },
   "mango": {
     "category": "fruit",
@@ -861,7 +943,9 @@
       "room_temp_days": 5,
       "refrigerated_days": 7,
       "frozen_days": 90
-    }
+    },
+    "name": "Mango",
+    "name_zh": "芒果"
   },
   "pear": {
     "category": "fruit",
@@ -881,7 +965,9 @@
       "room_temp_days": 7,
       "refrigerated_days": 14,
       "frozen_days": null
-    }
+    },
+    "name": "Pear",
+    "name_zh": "梨"
   },
   "jiaozi_pork": {
     "category": "frozen_ready",
@@ -901,7 +987,9 @@
       "room_temp_days": null,
       "refrigerated_days": null,
       "frozen_days": 180
-    }
+    },
+    "name": "Jiaozi Pork",
+    "name_zh": "饺子猪肉"
   },
   "jiaozi_vegetable": {
     "category": "frozen_ready",
@@ -921,7 +1009,9 @@
       "room_temp_days": null,
       "refrigerated_days": null,
       "frozen_days": 180
-    }
+    },
+    "name": "Jiaozi Vegetable",
+    "name_zh": "饺子菜"
   },
   "wonton_pork": {
     "category": "frozen_ready",
@@ -941,7 +1031,9 @@
       "room_temp_days": null,
       "refrigerated_days": null,
       "frozen_days": 180
-    }
+    },
+    "name": "Wonton Pork",
+    "name_zh": "猪肉馄饨"
   },
   "instant_noodles_chinese": {
     "category": "processed",
@@ -961,7 +1053,9 @@
       "room_temp_days": 365,
       "refrigerated_days": null,
       "frozen_days": null
-    }
+    },
+    "name": "Instant Noodles Chinese",
+    "name_zh": "方便面 中式"
   },
   "instant_noodles_japanese_ramen": {
     "category": "processed",
@@ -981,7 +1075,9 @@
       "room_temp_days": 365,
       "refrigerated_days": null,
       "frozen_days": null
-    }
+    },
+    "name": "Instant Noodles Japanese Ramen",
+    "name_zh": "方便面 日本拉面"
   },
   "instant_noodles_korean": {
     "category": "processed",
@@ -1001,7 +1097,9 @@
       "room_temp_days": 365,
       "refrigerated_days": null,
       "frozen_days": null
-    }
+    },
+    "name": "Instant Noodles Korean",
+    "name_zh": "方便面 韩式"
   },
   "instant_noodles_indomie": {
     "category": "processed",
@@ -1021,7 +1119,9 @@
       "room_temp_days": 365,
       "refrigerated_days": null,
       "frozen_days": null
-    }
+    },
+    "name": "Instant Noodles Indomie",
+    "name_zh": "方便面 Indomie"
   },
   "instant_noodles_udon": {
     "category": "processed",
@@ -1041,7 +1141,9 @@
       "room_temp_days": 180,
       "refrigerated_days": null,
       "frozen_days": null
-    }
+    },
+    "name": "Instant Noodles Udon",
+    "name_zh": "方便面乌冬面"
   },
   "tofu_firm": {
     "category": "plant_protein",
@@ -1071,7 +1173,9 @@
         "weight_g": 800,
         "price": 2.99
       }
-    ]
+    ],
+    "name": "Tofu Firm",
+    "name_zh": "豆腐行"
   },
   "white_rice": {
     "category": "grain",
@@ -1091,7 +1195,9 @@
       "room_temp_days": 365,
       "refrigerated_days": null,
       "frozen_days": null
-    }
+    },
+    "name": "White Rice",
+    "name_zh": "白米饭"
   },
   "soy_sauce": {
     "category": "pantry",
@@ -1111,7 +1217,9 @@
       "room_temp_days": 365,
       "refrigerated_days": null,
       "frozen_days": null
-    }
+    },
+    "name": "Soy Sauce",
+    "name_zh": "酱油"
   },
   "oyster_sauce": {
     "category": "pantry",
@@ -1131,7 +1239,9 @@
       "room_temp_days": 365,
       "refrigerated_days": null,
       "frozen_days": null
-    }
+    },
+    "name": "Oyster Sauce",
+    "name_zh": "蚝油"
   },
   "fish_sauce": {
     "category": "pantry",
@@ -1151,7 +1261,9 @@
       "room_temp_days": 365,
       "refrigerated_days": null,
       "frozen_days": null
-    }
+    },
+    "name": "Fish Sauce",
+    "name_zh": "鱼露"
   },
   "miso_paste": {
     "category": "pantry",
@@ -1171,7 +1283,9 @@
       "room_temp_days": 90,
       "refrigerated_days": 365,
       "frozen_days": null
-    }
+    },
+    "name": "Miso Paste",
+    "name_zh": "味噌酱"
   },
   "chili_garlic_paste": {
     "category": "pantry",
@@ -1191,7 +1305,9 @@
       "room_temp_days": 180,
       "refrigerated_days": null,
       "frozen_days": null
-    }
+    },
+    "name": "Chili Garlic Paste",
+    "name_zh": "辣椒蒜酱"
   },
   "tomato_paste": {
     "category": "pantry",
@@ -1211,7 +1327,9 @@
       "room_temp_days": 365,
       "refrigerated_days": 7,
       "frozen_days": null
-    }
+    },
+    "name": "Tomato Paste",
+    "name_zh": "番茄酱"
   },
   "olive_oil": {
     "category": "pantry",
@@ -1231,7 +1349,9 @@
       "room_temp_days": 365,
       "refrigerated_days": null,
       "frozen_days": null
-    }
+    },
+    "name": "Olive Oil",
+    "name_zh": "橄榄油"
   },
   "sesame_oil": {
     "category": "pantry",
@@ -1251,7 +1371,9 @@
       "room_temp_days": 365,
       "refrigerated_days": null,
       "frozen_days": null
-    }
+    },
+    "name": "Sesame Oil",
+    "name_zh": "香油"
   },
   "rice_vinegar": {
     "category": "pantry",
@@ -1271,7 +1393,9 @@
       "room_temp_days": 365,
       "refrigerated_days": null,
       "frozen_days": null
-    }
+    },
+    "name": "Rice Vinegar",
+    "name_zh": "米醋"
   },
   "balsamic_vinegar": {
     "category": "pantry",
@@ -1291,7 +1415,9 @@
       "room_temp_days": 365,
       "refrigerated_days": null,
       "frozen_days": null
-    }
+    },
+    "name": "Balsamic Vinegar",
+    "name_zh": "香醋"
   },
   "curry_paste_thai": {
     "category": "pantry",
@@ -1311,7 +1437,9 @@
       "room_temp_days": 90,
       "refrigerated_days": 365,
       "frozen_days": null
-    }
+    },
+    "name": "Curry Paste Thai",
+    "name_zh": "泰式咖喱酱"
   },
   "coconut_milk": {
     "category": "pantry",
@@ -1331,7 +1459,9 @@
       "room_temp_days": 365,
       "refrigerated_days": 3,
       "frozen_days": null
-    }
+    },
+    "name": "Coconut Milk",
+    "name_zh": "椰奶"
   },
   "pasta_spaghetti": {
     "category": "grain",
@@ -1351,7 +1481,9 @@
       "room_temp_days": 365,
       "refrigerated_days": null,
       "frozen_days": null
-    }
+    },
+    "name": "Pasta Spaghetti",
+    "name_zh": "意大利面 意大利面条"
   },
   "black_beans_canned": {
     "category": "pantry",
@@ -1371,7 +1503,9 @@
       "room_temp_days": 365,
       "refrigerated_days": 3,
       "frozen_days": null
-    }
+    },
+    "name": "Black Beans Canned",
+    "name_zh": "黑豆罐头"
   },
   "lime": {
     "category": "fruit",
@@ -1391,7 +1525,9 @@
       "room_temp_days": 14,
       "refrigerated_days": 21,
       "frozen_days": null
-    }
+    },
+    "name": "Lime",
+    "name_zh": "酸橙"
   },
   "curry_powder": {
     "category": "pantry",
@@ -1411,7 +1547,9 @@
       "room_temp_days": 365,
       "refrigerated_days": null,
       "frozen_days": null
-    }
+    },
+    "name": "Curry Powder",
+    "name_zh": "咖喱粉"
   },
   "mealdb_jalapeno": {
     "category": "pantry",

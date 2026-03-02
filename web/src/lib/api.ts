@@ -21,13 +21,15 @@ export type PlanMealSlot =
   | PlanMealOption
   | { options: PlanMealOption[]; chosen_index: number }
 
-/** 购物清单项：grams=需补足量；有 purchase_options 时有建议购买量与价格，否则 user_fill 由用户填写 */
+/** 购物清单项：grams=需补足量；name_en/name_zh 由后端从 ingredients.json 返回，无则前端用 getIngredientName 回退 */
 export type ShoppingListEntry = {
   ingredient_id: string
   grams: number
   suggested_grams?: number | null
   suggested_price?: number | null
   user_fill?: boolean
+  name_en?: string | null
+  name_zh?: string | null
 }
 
 export type PlanResponse = {
