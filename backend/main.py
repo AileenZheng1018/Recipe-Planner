@@ -17,6 +17,7 @@ _spec = importlib.util.spec_from_file_location("agent", _agent_path)
 if _spec is None or _spec.loader is None:
     raise RuntimeError(f"agent.py not found at {_agent_path}")
 _agent = importlib.util.module_from_spec(_spec)
+sys.modules["agent"] = _agent  # 必须在 exec 前注册，否则 agent 里的 @dataclass 会报 NoneType
 _spec.loader.exec_module(_agent)
 load_ingredients = _agent.load_ingredients
 load_recipes = _agent.load_recipes
