@@ -1,0 +1,230 @@
+{
+  "chicken_broccoli_only": {
+    "steps_zh": "1. 鸡胸切块，西兰花掰小朵。2. 鸡胸煎至变色，盛出。3. 西兰花焯水或炒熟，与鸡胸同炒，调味即可。",
+    "steps_en": "1. Cut chicken into pieces, break broccoli into florets. 2. Pan-fry chicken until coloured, set aside. 3. Blanch or stir-fry broccoli, combine with chicken, season."
+  },
+  "chicken_stir_fry": {
+    "steps_zh": "1. 鸡胸、彩椒、洋葱切块。2. 蒜姜爆香，下鸡胸炒至变色。3. 加入蔬菜与酱油翻炒，收汁即可。",
+    "steps_en": "1. Cut chicken, bell pepper, onion into pieces. 2. Fry garlic and ginger, add chicken until coloured. 3. Add vegetables and soy sauce, stir-fry and reduce."
+  },
+  "tofu_stir_fry": {
+    "steps_zh": "1. 豆腐切块，青菜洗净。2. 蒜姜爆香，下豆腐煎至两面微黄。3. 加青菜与酱油翻炒即可。",
+    "steps_en": "1. Cut tofu into cubes, wash greens. 2. Fry garlic and ginger, pan-fry tofu until lightly golden. 3. Add greens and soy sauce, stir-fry."
+  },
+  "salmon_baked": {
+    "steps_zh": "1. 三文鱼抹少许盐与柠檬汁。2. 烤箱预热 180°C，烤约 15 分钟。3. 配西兰花或蔬菜上桌。",
+    "steps_en": "1. Season salmon with salt and lemon. 2. Preheat oven 180°C, bake about 15 min. 3. Serve with broccoli or vegetables."
+  },
+  "beef_brisket_noodle": {
+    "steps_zh": "1. 牛腩焯水后与姜、香料炖软。2. 面条与青菜煮熟。3. 碗中盛面，浇牛腩汤与肉即可。",
+    "steps_en": "1. Blanch brisket, then braise with ginger and spices until tender. 2. Cook noodles and greens. 3. Bowl noodles, top with brisket and broth."
+  },
+  "default": {
+    "steps_zh": "1. 按食谱准备食材。2. 按常规方式烹制。3. 装盘食用。",
+    "steps_en": "1. Prepare ingredients per recipe. 2. Cook as usual. 3. Plate and serve."
+  },
+  "mealdb_53284": {
+    "steps_en": "1. Preheat your oven's broiler. Place red bell peppers and tomatoes on a baking sheet, and roast under the broiler for about 8 minutes, turning occasionally. This should blacken the skin and help it peel off more easily. Cool, then scrape the skins off of the tomatoes and peppers, and place them in a large bowl. Remove cores and seeds from the bell peppers.\n2. Heat 1 tablespoon of olive oil in a skillet over medium heat. Add the jalapenos and garlic, and cook until tender, stirring frequently. Remove from heat, and transfer the garlic and jalapeno to the bowl with the tomatoes and red peppers. Using two sharp steak knives (one in each hand), cut up the tomatoes and peppers to a coarse and soupy consistency. Stir, and set sauce aside.\n3. Place the semolina in a large bowl, and stir in salt and 4 tablespoons of olive oil. Gradually add water while mixing and squeezing with your hand until the dough holds together without being sticky or dry, and molds easily with the hand. Divide into 6 pieces and form into balls.\n4. For each round, heat 1 tablespoon of olive oil in a large heavy skillet over medium heat. Roll out dough one round at a time, to no thicker than 1/4 inch. Fry in the hot skillet until dark brown spots appear on the surface, and they are crispy. Remove from the skillet, and wrap in a clean towel while preparing the remaining flat breads.\n5. To eat the bread and sauce, break off pieces of the bread, and scoop them into the sauce. It will slide off, but just keep reaching in!",
+    "steps_zh": "1. 预热烤箱的烤架。将红甜椒和西红柿放在烤盘上，在烤炉下烤约 8 分钟，偶尔翻动。这会使皮肤变黑并帮助其更容易剥落。冷却，然后刮掉西红柿和辣椒的皮，然后将它们放入一个大碗中。从甜椒中取出核心和种子。\n2. 在煎锅中用中火加热 1 汤匙橄榄油。加入墨西哥胡椒和大蒜，煮至变软，经常搅拌。从火上移开，将大蒜和墨西哥胡椒与西红柿和红辣椒一起放入碗中。使用两把锋利的牛排刀（每手一把），将西红柿和辣椒切成粗糙的汤状。搅拌，将酱汁放在一边。\n3. 将粗面粉放入一个大碗中，加入盐和 4 汤匙橄榄油，搅拌。一边用手搅拌和挤压，一边逐渐加水，直到面团粘在一起，不粘也不干，用手就能轻松成型。分成6份并搓成球状。\n4. 每一轮，在一个大的重煎锅中用中火加热 1 汤匙橄榄油。一次将面团擀成圆形，厚度不超过 1/4 英寸。放入热锅中煎至表面出现黑褐色斑点，外皮酥脆。从煎锅中取出，用干净的毛巾包裹起来，同时准备剩余的扁面包。\n5. 吃面包和酱汁时，将面包片掰下来，舀入酱汁中。它会滑落，但只要继续伸进去！"
+  },
+  "mealdb_53282": {
+    "steps_en": "1. Place a steamer insert into a saucepan, and fill with 1 1/2 cups of water, or just below the bottom of the steamer. Cover, and bring the water to a boil over high heat. Add the sliced carrots, reduce the heat to medium, and cover the pan again. Steam until tender but not mushy, 4 to 6 minutes depending on the thickness of the slices. Reserve 1/2 cup of the cooking liquid.\n2. Heat the olive oil in a skillet over medium heat. Reduce the heat to low and stir in the salt, pepper, cinnamon, cumin, garlic, and thyme. Cook the spices and garlic, stirring frequently, until fragrant, about 10 minutes. Add the 1/2 cup reserved cooking liquid and the bay leaf, cover, and simmer for 20 minutes.\n3. Stir in the carrots, tossing well to coat with the spice mixture, and cook until heated through, about 2 to 3 minutes. Sprinkle with lemon juice and remove the bay leaf before serving.",
+    "steps_zh": "1. 将蒸锅放入平底锅中，加入 1 1/2 杯水，或刚好低于蒸锅底部。盖上盖子，用大火将水煮沸。加入胡萝卜片，将火调至中火，然后再次盖上锅盖。蒸4至6分钟，直至变软但不糊状，具体取决于切片的厚度。保留 1/2 杯烹饪液。\n2. 在平底锅中用中火加热橄榄油。把火调小，加入盐、胡椒、肉桂、孜然、大蒜和百里香。煮香料和大蒜，经常搅拌，直至散发出香味，大约需要 10 分钟。加入 1/2 杯保留的烹饪液和月桂叶，盖上盖子，煮 20 分钟。\n3. 加入胡萝卜，搅拌均匀，使其沾上香料混合物，煮至热透，约 2 至 3 分钟。食用前撒上柠檬汁并除去月桂叶。"
+  },
+  "mealdb_53288": {
+    "steps_en": "1. Preheat an oven to 450 degrees F (230 degrees C). Place the whole peppers on aluminum foil. Bake until the skin is spotted black and the peppers are soft, 30 to 45 minutes, turning the peppers once if necessary.\n2. Remove peppers from the oven and set aside to cool for 10 minutes. Peel off the skin and remove the stem and seeds. Chop the roasted peppers into half-inch pieces.\n3. Heat the olive oil in a skillet over medium heat. Stir in the onion and cook, stirring frequently, until the onion has softened and turned translucent, about 5 minutes. Add the garlic, salt, and pepper; stir in the chopped peppers and tomato. Cook over medium heat, stirring occasionally, until the tomato is soft and the mixture is well incorporated, about 5 minutes.",
+    "steps_zh": "1. 将烤箱预热至 450 华氏度（230 摄氏度）。将整个辣椒放在铝箔上。烘烤 30 至 45 分钟，直至表皮变黑且辣椒变软，必要时可将辣椒翻动一次。\n2. 将辣椒从烤箱中取出，放在一边冷却 10 分钟。剥去外皮并去除茎和种子。将烤辣椒切成半英寸的碎片。\n3. 在平底锅中用中火加热橄榄油。拌入洋葱，不断搅拌，直至洋葱变软并变成半透明，大约需要 5 分钟。加入大蒜、盐和胡椒粉；拌入切碎的辣椒和番茄。用中火煮约 5 分钟，偶尔搅拌，直到番茄变软并且混合物充分混合。"
+  },
+  "mealdb_53281": {
+    "steps_en": "1. Combine ground beef with 1/2 of the minced garlic and 1 tablespoon chopped onion in a large bowl. Mix with your hands until fully incorporated. Shape meat mixture into 1 1/2-inch oblong patties; you should have 12 to 14 meatballs.\n2. Heat a large skillet over medium-high heat. Brown patties in batches in the hot skillet until crispy on both sides and no longer pink in the center, about 10 minutes. Set meatballs aside in a rimmed serving dish.\n3. Reduce heat to medium and stir remaining chopped onion into drippings in the skillet. Season with salt and pepper. Cook, stirring constantly, until onion has softened and turned translucent, about 5 minutes. Stir in remaining garlic and cook for 30 seconds. Stir in Roma tomatoes, dried parsley, and ras el hanout. Pour in water. Cook until tomatoes are soft, about 5 minutes.\n4. Pour tomato sauce over meatballs to serve.",
+    "steps_zh": "1. 将碎牛肉、1/2 蒜末和 1 汤匙切碎的洋葱放入一个大碗中。用手搅拌直至完全融合。将肉混合物制成 1 1/2 英寸的椭圆形肉饼；你应该有12到14个肉丸。\n2. 用中高火加热大煎锅。将肉饼分批放入热煎锅中，直至两面酥脆，中间不再呈粉红色，大约需要 10 分钟。将肉丸放在有边的盘子中。\n3. 将火调至中火，将剩余的切碎洋葱放入煎锅中搅拌。用盐和胡椒调味。煮约 5 分钟，不断搅拌，直到洋葱变软并变成半透明。加入剩余的大蒜，煮 30 秒。加入罗马番茄、干欧芹和拉斯埃尔哈努特。倒入水。煮约 5 分钟，直至西红柿变软。\n4. 将番茄酱淋在肉丸上即可食用。"
+  },
+  "mealdb_53290": {
+    "steps_en": "1. In a medium bowl, whisk together egg, parsley, garlic and crushed red pepper. Mix in Gouda and Emmentaler.\n2. One sheet at a time, place phyllo dough on a flat surface and brush with about 1 tablespoon butter. Cut lengthwise into 4 strips. Place a rounded teaspoon of the egg mixture at one end of each strip. Fold corner of strip over the filling, forming a triangular fold. Continue folding the length of the strip in triangular folds to form a small stuffed triangle. Repeat with remaining phyllo dough.\n3. Preheat oven to 350 degrees F (175 degrees C). Lightly butter a large baking sheet.\n4. Arrange stuffed phyllo triangles in a single layer on the prepared baking sheet. Bake in the preheated oven 30 minutes, or until lightly browned. Serve warm",
+    "steps_zh": "1. 在一个中等大小的碗中，将鸡蛋、欧芹、大蒜和碎红辣椒搅拌在一起。加入豪达干酪和艾门塔尔干酪。\n2. 一次一张，将菲罗面团放在平坦的表面上，刷上约一汤匙黄油。纵向切成4条。在每条条的一端放一茶匙圆形鸡蛋混合物。将条带的一角折叠到填充物上，形成三角形折叠。继续将条带的长度折叠成三角形，形成一个小的填充三角形。对剩余的菲罗面团重复上述步骤。\n3. 将烤箱预热至 350 华氏度（175 摄氏度）。在一张大烤盘上涂上少许黄油。\n4. 将填充的三角形单层排列在准备好的烤盘上。在预热的烤箱中烘烤 30 分钟，或直至浅棕色。趁热食用"
+  },
+  "mealdb_53289": {
+    "steps_en": "1. Place freekeh in a small bowl and cover with cold water. Set aside.\n2. Combine lamb, onion, black pepper, paprika, cinnamon, and salt in a pot. Stir in oil, 1/2 the cilantro, 1/2 the mint, and celery stalk until combined. Simmer over low heat for 15 minutes. Stir in chickpeas; pour in just enough water to cover, and return to a simmer. Stir in zucchini, carrot, and tomato paste.\n3. Set a steamer over the pot; add tomatoes. Cover and steam tomatoes until soft, about 5 minutes. Crush tomatoes using a wooden spoon, so pulp drips into soup. Remove the steamer and discard leftover tomato peels.\n4. Add potato to soup and just enough water to cover. Simmer until potato is soft, about 10 minutes.\n5. Drain freekeh and add to soup. Simmer until soft, about 15 minutes. Remove celery stalk and discard. Sprinkle soup with remaining 1/2 cilantro and remaining 1/2 mint before serving.",
+    "steps_zh": "1. 将 freekeh 放入小碗中，并倒入冷水。放在一边。\n2. 将羊肉、洋葱、黑胡椒、辣椒粉、肉桂粉和盐放入锅中混合。加入油、1/2 香菜、1/2 薄荷和芹菜茎，搅拌直至混合。小火煮15分钟。拌入鹰嘴豆；倒入足够的水覆盖，然后重新煮。加入西葫芦、胡萝卜和番茄酱。\n3、锅上放蒸锅；添加西红柿。盖上盖子，蒸番茄至软，大约 5 分钟。用木勺将西红柿压碎，使果肉滴入汤中。取出蒸笼并丢弃剩余的番茄皮。\n4. 将土豆加入汤中，加水至没过土豆即可。煮约10分钟，直至土豆变软。\n5.沥干水分，加入汤中。煮约15分钟直至变软。去除芹菜茎并丢弃。食用前，在汤上撒上剩余的 1/2 香菜和剩余的 1/2 薄荷。"
+  },
+  "mealdb_53283": {
+    "steps_en": "1. Combine garlic, chile pepper, cumin, paprika, black pepper, cayenne, and salt in a mortar; grind with a pestle until it forms a paste. Add olive oil and mix dersa well.\n2. Heat a large saucepan over medium heat and stir-fry dersa until fragrant, 2 to 4 minutes. Add potato halves and stir to combine with the dersa. Stir in tomato paste. Pour in enough water to just cover the potatoes and bring to a boil. Reduce heat and simmer until potatoes are tender, about 40 minutes.\n3. Ladle potatoes into a serving bowl. Spoon any remaining sauce over the potatoes.",
+    "steps_zh": "1. 将大蒜、辣椒、小茴香、辣椒粉、黑胡椒、辣椒粉和盐放入研钵中混合；用杵研磨直至形成糊状。加入橄榄油并将dersa充分混合。\n2. 用中火加热一个大平底锅，炒香 dersa，2 至 4 分钟。加入土豆半块，搅拌与德萨混合。拌入番茄酱。倒入足够的水，刚好没过土豆，然后煮沸。调小火，煮约 40 分钟，直至土豆变软。\n3. 将土豆舀入碗中。将剩余的酱汁舀到土豆上。"
+  },
+  "mealdb_53291": {
+    "steps_en": "1. Preheat oven to 300 degrees F (150 degrees C). Line a baking sheet with parchment paper. Spread almonds over the baking sheet.\n2. Bake in the preheated oven until almonds are fragrant and roasted, 20 to 25 minutes.\n3. Prepare pastry dough while almonds are roasting. Combine flour, 1/2 cup plus 1 tablespoon butter, and salt in a bowl and rub together until the mixture resembles breadcrumbs. Add egg, oil, and 1 1/2 tablespoons orange blossom water; knead everything into a smooth pastry dough. Add a little water, 1 teaspoon at a time, if dough is too dry. Shape pastry dough into a ball, wrap in plastic wrap, and set aside for 30 minutes.\n4. Remove almonds from oven and cool slightly, about 5 minutes. Place almonds in the bowl of a food processor; process until finely and evenly ground. Add 3/4 cup plus 1 tablespoon sugar, cinnamon, egg, and 1 tablespoon orange blossom water in that order to the food processor, pulsing after each addition until mixture is evenly combined and resembles a paste.\n5. Remove small walnut-sized portions of filling with greased hands. Roll them into small logs with thin ends. Set aside.\n6. Preheat oven to 325 degrees F (165 degrees C). Line a baking sheet with parchment paper.\n7. Roll out half of the pastry dough on a lightly floured surface until very thin. Place one of the almond paste logs on the edge of the pastry, fold pastry over the filling, covering it completely, and seal the edges. Mold with your fingers into a crescent shape. Using a pastry cutter, cut around the crescent, and transfer to the prepared baking sheet. Repeat with remaining dough and filling.\n8. Bake in the preheated oven until gazelle horns are lightly golden and baked through, about 20 minutes. They should not get too dark. Let cool slightly, about 3 minutes.\n9. Heat honey in a small saucepan over low-medium heat. Remove from heat and stir in 1 tablespoon orange blossom water. Dip gazelle horns into the honey and place on a serving plate. Sprinkle with crushed pistachios.",
+    "steps_zh": "1. 将烤箱预热至 300 华氏度（150 摄氏度）。在烤盘上铺上羊皮纸。将杏仁铺在烤盘上。\n2. 在预热的烤箱中烘烤 20 至 25 分钟，直至杏仁散发出香味并烤熟。\n3. 在烘烤杏仁的同时准备糕点面团。将面粉、1/2 杯加 1 汤匙黄油和盐放入碗中混合，揉搓直至混合物看起来像面包屑。加入鸡蛋、油和1 1/2汤匙橙花水；将所有东西揉成光滑的糕点面团。如果面团太干，加一点水，一次一茶匙。将糕点面团揉成球状，用保鲜膜包起来，放置 30 分钟。\n4. 将杏仁从烤箱中取出，稍微冷却约 5 分钟。将杏仁放入食品加工机的碗中；处理直至精细且均匀地研磨。按顺序将 3/4 杯加 1 汤匙糖、肉桂、鸡蛋和 1 汤匙橙花水加入食品加工机中，每次添加后进行脉冲处理，直至混合物均匀混合并形成糊状。\n5. 用抹了油的手取出核桃大小的小部分馅料。将它们卷成两端细的小圆木。放在一边。\n6. 将烤箱预热至 325 华氏度（165 摄氏度）。在烤盘上铺上羊皮纸。\n7. 将一半的糕点面团放在撒有少许面粉的表面上，擀至非常薄。将一根杏仁酱放在糕点的边缘，将糕点折叠在馅料上，完全覆盖它，然后密封边缘。用手指将其塑造成月牙形状。使用糕点刀，在新月形周围切开，然后转移到准备好的烤盘上。对剩余的面团和馅料重复上述步骤。\n8.放入预热好的烤箱中烘烤约20分钟，直至瞪羚角呈浅金黄色并烤透。它们不应该变得太暗。稍微冷却约 3 分钟。\n9. 在小平底锅中用中低火加热蜂蜜。从火上移开并加入 1 汤匙橙花水搅拌。将瞪羚角浸入蜂蜜中，然后放在盘子上。撒上碎开心果。"
+  },
+  "mealdb_53285": {
+    "steps_en": "1. Prepare the almonds the day before. Bring 6 cups of water to a boil. Remove from heat, and add the almonds. Let the almonds soak in water for about 5 minutes, then drain and peel. Spread the almonds on baking sheets, and bake at 200 degrees F(95 degrees C) until completely dry and toasted. This takes several hours, and needs to be prepared ahead. Be careful not to burn the nuts, as this will give a bitter taste to the filling.\n2. Combine 1 cup sugar and 1 cup water in a saucepan, and bring to a boil. Add 1 teaspoon lemon juice, reduce heat to low, and let it simmer until syrupy, about 30 to 40 minutes. Stir in orange blossom water, and remove from heat. Set sugar syrup aside.\n3. Combine flour and salt in a large mixing bowl. Make a hole in the center, and pour oil, egg, 1/2 teaspoon lemon juice, and 1 tablespoon orange blossom water into the center. Mix with fingers until the dough resembles coarse crumbs. Gradually sprinkle with warm water while mixing until the dough becomes soft and pliable. Divide into 4 equal portions. Cover dough with a wet cloth, and set aside.\n4. In a food processor, finely grind the almonds. Measure 3 cups of the finely ground almonds into a mixing bowl, and stir together with 1 cup sugar, baking powder, vanilla powder, lemon zest, and 2 tablespoons orange flower water. Mix in three eggs one at a time, stirring constantly; mix until you get a sticky, paste-like mixture.\n5. Sprinkle cornstarch on the rolling surface to prevent sticking. Roll each portion of dough very thinly, 1 to 2 millimeters (1/16 inch). Cut the rolled dough into circles of about 10 centimeters (4 inches) in diameter each. Lightly wipe the surface of each circle with cornstarch, and fit into a tart mold, cornstarch side down to prevent sticking. Gently press the dough onto the sides and bottom of the mold, and trim extra dough from around the rim. Fill three quarters of each mold with the almond filling.\n6. Bake on the top shelf at 350 degrees F (175 degrees C) for 20 to 25 minutes, or until the surface of the tart is golden and the dough is firm. Remove the tarts from the molds as soon as they come out of the oven. Dip each tart in the sugar syrup while still hot. Stick a pine nut into the middle of each tart for decoration. Place on a wire rack to drain.",
+    "steps_zh": "1.前一天准备好杏仁。将 6 杯水煮沸。从火上移开，加入杏仁。让杏仁在水中浸泡约 5 分钟，然后沥干并去皮。将杏仁铺在烤盘上，在 200 华氏度（95 摄氏度）下烘烤，直至完全干燥并烘烤。这需要几个小时，需要提前做好准备。小心不要烧焦坚果，因为这会给馅料带来苦味。\n2. 将 1 杯糖和 1 杯水放入锅中，煮沸。加入 1 茶匙柠檬汁，将火调小，煮约 30 至 40 分钟，直至呈糖浆状。加入橙花水搅拌，然后离火。将糖浆放在一边。\n3. 将面粉和盐放入一个大碗中混合。在中心挖一个洞，然后将油、鸡蛋、1/2 茶匙柠檬汁和 1 汤匙橙花水倒入中心。用手指搅拌直至面团呈粗面包屑状。边搅拌边逐渐撒上温水，直到面团变得柔软柔韧。分成4等份。用湿布盖住面团，放在一边。\n4. 在食品加工机中，将杏仁磨碎。将 3 杯磨碎的杏仁放入搅拌碗中，与 1 杯糖、泡打粉、香草粉、柠檬皮碎和 2 汤匙橙花水一起搅拌。加入三个鸡蛋，一次一个，不断搅拌；混合直至得到粘稠的糊状混合物。\n5、擀好的面撒上玉米淀粉，防止粘连。将面团的每部分擀得很薄，1 到 2 毫米（1/16 英寸）。将擀好的面团切成每个直径约 10 厘米（4 英寸）的圆形。用玉米淀粉轻轻擦拭每个圆圈的表面，然后放入挞模中，玉米淀粉面朝下，防止粘连。轻轻地将面团压到模具的侧面和底部，并修剪边缘周围多余的面团。用杏仁馅填充每个模具的四分之三。\n6. 在顶层架子上以 350 华氏度（175 摄氏度）烘烤 20 至 25 分钟，或直至挞表面呈金黄色且面团变硬。从烤箱中取出蛋挞后，立即将其从模具中取出。趁热将每个馅饼浸入糖浆中。在每个挞的中间粘上一颗松子作为装饰。放在金属架上沥干。"
+  },
+  "mealdb_53286": {
+    "steps_en": "1. Mix 1/2 cup plus 2 tablespoons semolina, 2 tablespoons sesame seeds, sugar, yeast, and salt together in a large bowl. Whisk in oil, egg, and egg white. Stir in warm milk slowly until a liquid dough forms.\n2. Cover the bowl with a plate or plastic wrap; let stand at room temperature until frothy, about 1 hour.\n3. Stir in 2 3/4 cups flour with a wooden spoon until a sticky dough forms. Cover again and allow to rest for 30 minutes.\n4. Line a baking sheet with parchment paper or a baking mat.\n5. Sprinkle 1 tablespoon flour over the dough and your hands. Mix dough, adding flour as needed, 1 tablespoon at a time, until it pulls away from the sides of the bowl. Shape into a round loaf and place on the prepared baking sheet. Cover loosely with a towel and let rise for 1 hour in a warm place until loaf doubles in volume.\n6. Preheat oven to 400 degrees F (200 degrees C).\n7. Beat egg yolk and water in a bowl with a fork; brush over the entire surface of the loaf. Sprinkle 1 tablespoon sesame seeds on top.\n8. Bake in the preheated oven until loaf is golden brown, about 20 to 25 minutes.",
+    "steps_zh": "1. 将 1/2 杯加 2 汤匙粗面粉、2 汤匙芝麻、糖、酵母和盐在一个大碗中混合。加入油、鸡蛋和蛋白，搅拌。慢慢加入温牛奶，直至形成液体面团。\n2.用盘子或保鲜膜盖住碗；在室温下静置约 1 小时直至起泡。\n3. 用木勺加入 2 3/4 杯面粉，搅拌直至形成粘性面团。再次盖上盖子，静置 30 分钟。\n4. 在烤盘上铺上羊皮纸或烤垫。\n5. 在面团和手上撒上一汤匙面粉。混合面团，根据需要添加面粉，一次一汤匙，直到它从碗的侧面脱离。形成圆形面包并放在准备好的烤盘上。用毛巾松松地盖住，在温暖的地方发酵 1 小时，直至面包体积加倍。\n6. 将烤箱预热至 400 华氏度（200 摄氏度）。\n7.将蛋黄和水放入碗中，用叉子搅匀；刷过面包的整个表面。在上面撒上一汤匙芝麻。\n8. 在预热的烤箱中烘烤约 20 至 25 分钟，直至面包呈金黄色。"
+  },
+  "mealdb_53280": {
+    "steps_en": "1. Preheat oven to 350 degrees F (175 degrees C).\n2. Mix water, onion, olive oil, balsamic vinegar, Dijon mustard, garlic, black pepper, cayenne pepper, and salt together in a roasting dish. Add chicken; turn until well coated with mixture.\n3. Bake in the preheated oven until an instant-read thermometer inserted into the thickest part of the thigh, near the bone, reads 165 degrees F (74 degrees C), about 1 hour 30 minutes.",
+    "steps_zh": "1. 将烤箱预热至 350 华氏度（175 摄氏度）。\n2. 将水、洋葱、橄榄油、香醋、第戎芥末、大蒜、黑胡椒、辣椒和盐放入烤盘中混合。添加鸡肉；转动直至充分涂上混合物。\n3. 在预热的烤箱中烘烤，直到将即时读数温度计插入大腿最厚的部分（靠近骨头），读数为 165 华氏度（74 摄氏度），大约需要 1 小时 30 分钟。"
+  },
+  "mealdb_53287": {
+    "steps_en": "1. Combine onions, celery, cilantro, and parsley in a large pot. Stir in turmeric, cumin, paprika, ginger, cayenne pepper, salt, and pepper. Place chicken thighs on top. Drizzle olive oil over chicken. Cover and simmer over low heat until chicken is tender, about 40 minutes.\n2. Place raisins in a small bowl and cover with hot water; let soak for 10 minutes. Drain.\n3. Preheat oven to 400 degrees F (200 degrees C).\n4. Transfer chicken mixture into an oven-safe tagine or casserole dish. Add sweet potato and carrots. Cover with lid or aluminum foil.\n5. Bake in the preheated oven until sweet potato is soft, about 40 minutes. Add drained raisins and prunes. Continue baking, covered, until raisins and prunes are heated through, about 10 minutes.",
+    "steps_zh": "1. 将洋葱、芹菜、香菜和欧芹放入一个大锅中。加入姜黄、孜然、辣椒粉、姜、辣椒、盐和胡椒。将鸡腿放在上面。将橄榄油淋在鸡肉上。盖上锅盖，小火煮约 40 分钟，直至鸡肉变软。\n2. 将葡萄干放入小碗中，盖上热水；浸泡 10 分钟。流走。\n3. 将烤箱预热至 400 华氏度（200 摄氏度）。\n4. 将鸡肉混合物放入可用于烤箱的塔吉锅或砂锅中。加入红薯和胡萝卜。盖上盖子或铝箔。\n5.放入预热好的烤箱中烘烤约40分钟，直至红薯变软。加入沥干的葡萄干和李子。继续烘烤，盖上盖子，直到葡萄干和李子被加热，大约需要 10 分钟。"
+  },
+  "mealdb_53085": {
+    "steps_en": "1. STEP 1\n2. Put the chicken breasts between two pieces of baking parchment and use a rolling pin to gently bash them until they are approximately 1cm thick. Cut each chicken breast into two even pieces.\n3. STEP 2\n4. If you're using a frying pan, heat two frying pans over medium-high heat, with one of them containing oil. Fry the chicken in the oiled pan for 3-4 mins on each side until they are cooked through. Season the chicken, reduce the heat, drizzle in the chilli sauce and half of the lemon juice, and cook for an additional 1-2 mins until the sauce is reduced. Remove the chicken from the heat.\n5. STEP 3\n6. If you're using an air-fryer, preheat it to 180C for 4 mins. Add the chicken to the air-fryer and cook for 12 mins. Drizzle over the chilli sauce and half the lemon juice and cook for an additional 1-2 mins until the chicken is cooked through and the sauce is reduced. Remove the chicken and keep it warm.\n7. STEP 4\n8. While the chicken is cooking, toast the buns in the dry frying pan for 30 seconds. Transfer them to a plate. If you're using an air fryer, put the buns in the air fryer for 1-2 mins until they are warm. Increase the air fryer temperature to 200C. Add the halloumi to the air fryer basket and cook for 10 mins, turning halfway through, until it's golden. Toss the cabbage with the mayo and the remaining lemon juice.\n9. STEP 5\n10. Spoon the hummus (or dip of your choice) into the toasted buns, then top with the rocket, chilli chicken, halloumi, and peppers. Drizzle with a little more chilli sauce, spoon over the cabbage, season with black pepper, and top with the bun lids. Serve with any extra cabbage on the side or a green salad.",
+    "steps_zh": "1. 第 1 步\n2. 将鸡胸肉放在两张烘焙纸之间，用擀面杖轻轻敲打至约1厘米厚。将每个鸡胸肉切成均匀的两块。\n3.第2步\n4. 如果您使用煎锅，请用中高火加热两个煎锅，其中一个装有油。将鸡肉放入油锅中，每面煎 3-4 分钟，直至熟透。将鸡肉调味，调小火，淋上辣椒酱和一半柠檬汁，再煮 1-2 分钟，直至酱汁收干。将鸡肉从火上移开。\n5.第3步\n6. 如果您使用空气炸锅，请将其预热至 180°C 4 分钟。将鸡肉放入空气炸锅中煮 12 分钟。淋上辣椒酱和一半柠檬汁，再煮 1-2 分钟，直至鸡肉煮熟且酱汁变少。取出鸡肉并保温。\n7.第4步\n8. 煮鸡肉的同时，将面包放入干煎锅中烤 30 秒。将它们转移到盘子上。如果您使用空气炸锅，请将面包放入空气炸锅中 1-2 分钟，直至变热。将空气炸锅温度提高至 200C。将哈罗米干酪放入空气炸锅炸篮中，煮 10 分钟，中途翻面，直至呈金黄色。将卷心菜与蛋黄酱和剩余的柠檬汁一起搅拌。\n9.第5步\n10. 将鹰嘴豆泥（或您选择的蘸酱）舀入烤面包中，然后在上面放上芝麻菜、辣椒鸡、哈罗米干酪和辣椒。再淋上一点辣椒酱，用勺子浇在卷心菜上，用黑胡椒调味，然后盖上面包盖。与任何额外的卷心菜或绿色沙拉一起食用。"
+  },
+  "mealdb_52855": {
+    "steps_en": "1. In a bowl, mash the banana with a fork until it resembles a thick purée. Stir in the eggs, baking powder and vanilla.\n2. Heat a large non-stick frying pan or pancake pan over a medium heat and brush with half the oil. Using half the batter, spoon two pancakes into the pan, cook for 1-2 mins each side, then tip onto a plate. Repeat the process with the remaining oil and batter. Top the pancakes with the pecans and raspberries.",
+    "steps_zh": "1. 在碗中，用叉子将香蕉捣碎，直至呈浓稠的果泥状。加入鸡蛋、泡打粉和香草精。\n2. 用中火加热一个大的不粘煎锅或煎饼锅，刷上一半的油。用一半的面糊，将两块煎饼舀入锅中，每面煎 1-2 分钟，然后倒在盘子上。用剩下的油和面糊重复这个过程。在煎饼上放上山核桃和覆盆子。"
+  },
+  "mealdb_52995": {
+    "steps_en": "1. 1\n2. Preheat oven to 450 degrees. Wash and dry all produce. Cut sweet potatoes into ½-inch-thick wedges. Toss on a baking sheet with a drizzle of oil, salt, and pepper. Roast until browned and tender, 20-25 minutes.\n3. 2\n4. Meanwhile, halve and peel onion. Slice as thinly as possible until you have ¼ cup (½ cup for 4 servings); finely chop remaining onion. Peel and finely chop garlic. Halve lime; squeeze juice into a small bowl. Halve buns. Add 1 TBSP butter (2 TBSP for 4) to a separate small microwave-safe bowl; microwave until melted, 30 seconds. Brush onto cut sides of buns.\n5. 3\n6. To bowl with lime juice, add sliced onion, ¼ tsp sugar (½ tsp for 4 servings), and a pinch of salt. Stir to combine; set aside to quick-pickle.\n7. 4\n8. Heat a drizzle of oil in a large pan over medium-high heat. Add chopped onion and season with salt and pepper. Cook, stirring, until softened, 4-5 minutes. Add garlic and cook until fragrant, 30 seconds more. Add pork and season with salt and pepper. Cook, breaking up meat into pieces, until browned and cooked through, 4-6 minutes.\n9. 5\n10. While pork cooks, in a third small bowl, combine BBQ sauce, pickling liquid from onion, 3 TBSP ketchup (6 TBSP for 4 servings), ½ tsp sugar (1 tsp for 4), and ¼ cup water (⅓ cup for 4). Once pork is cooked through, add BBQ sauce mixture to pan. Cook, stirring, until sauce is thickened, 2-3 minutes. Taste and season with salt and pepper.\n11. 6\n12. Meanwhile, toast buns in oven or toaster oven until golden, 3-5 minutes. Divide toasted buns between plates and fill with as much BBQ pork as you’d like. Top with pickled onion and hot sauce. Serve with sweet potato wedges on the side.",
+    "steps_zh": "1.1\n2. 将烤箱预热至450度。清洗并干燥所有产品。将红薯切成 1/2 英寸厚的楔形。在烤盘上撒上油、盐和胡椒粉。烤 20-25 分钟，直至变成棕色并变软。\n3.2\n4. 同时，将洋葱切半并去皮。尽可能切成薄片，直到达到 ¼ 杯（½ 杯，4 人份）；将剩余的洋葱切碎。大蒜去皮并切碎。石灰减半；将果汁挤入小碗中。馒头减半。将 1 汤匙黄油（4 人份 2 汤匙）添加到一个单独的微波炉专用小碗中；微波炉加热 30 秒直至融化。刷在面包的切边上。\n5. 3\n6. 将青柠汁放入碗中，加入洋葱片、1/4 茶匙糖（4 人份 1/2 茶匙）和少许盐。搅拌混合；放在一边快速腌制。\n7. 4\n8. 在一个大平底锅中用中高温加热毛毛雨。加入切碎的洋葱，用盐和胡椒调味。边搅拌边煮 4-5 分钟，直至变软。加入大蒜，再煮 30 秒，直至散发出香味。加入猪肉，用盐和胡椒调味。将肉切成块，煮 4-6 分钟，直至变成褐色并煮熟。\n9. 5\n10. 煮猪肉的同时，在第三个小碗中加入烧烤酱、洋葱腌渍液、3 汤匙番茄酱（4 人份 6 汤匙）、½ 茶匙糖（4 人份 1 茶匙）和 ¼ 杯水（4 人份 ⅓ 杯）。猪肉煮熟后，将烧烤酱混合物加入锅中。边煮边搅拌，直到酱汁变稠，持续 2-3 分钟。品尝并用盐和胡椒调味。\n11. 6\n12. 同时，将面包放入烤箱或烤面包机中烤至金黄色，持续 3-5 分钟。将烤面包分装在盘子中，并根据需要填入尽可能多的烤猪肉。上面放上腌洋葱和辣酱。与红薯角一起食用。"
+  },
+  "mealdb_52812": {
+    "steps_en": "1. 1 Prepare the brisket for cooking: On one side of the brisket there should be a layer of fat, which you want. If there are any large chunks of fat, cut them off and discard them. Large pieces of fat will not be able to render out completely.\n2. Using a sharp knife, score the fat in parallel lines, about 3/4-inch apart. Slice through the fat, not the beef. Repeat in the opposite direction to make a cross-hatch pattern.\n3. Salt the brisket well and let it sit at room temperature for 30 minutes.\n4. 2 Sear the brisket: You'll need an oven-proof, thick-bottomed pot with a cover, or Dutch oven, that is just wide enough to hold the brisket roast with a little room for the onions.\n5. Pat the brisket dry and place it, fatty side down, into the pot and place it on medium high heat. Cook for 5-8 minutes, lightly sizzling, until the fat side is nicely browned. (If the roast seems to be cooking too fast, turn the heat down to medium. You want a steady sizzle, not a raging sear.)\n6. Turn the brisket over and cook for a few minutes more to brown the other side.\n7. 3 Sauté the onions and garlic: When the brisket has browned, remove it from the pot and set aside. There should be a couple tablespoons of fat rendered in the pot, if not, add some olive oil.\n8. Add the chopped onions and increase the heat to high. Sprinkle a little salt on the onions. Sauté, stirring often, until the onions are lightly browned, 5-8 minutes. Stir in the garlic and cook 1-2 more minutes.\n9. 4 Return brisket to pot, add herbs, stock, bring to simmer, cover, cook in oven: Preheat the oven to 300°F. Use kitchen twine to tie together the bay leaves, rosemary and thyme.\n10. Move the onions and garlic to the sides of the pot and nestle the brisket inside. Add the beef stock and the tied-up herbs. Bring the stock to a boil on the stovetop.\n11. Cover the pot, place the pot in the 300°F oven and cook for 3 hours. Carefully flip the brisket every hour so it cooks evenly.\n12. 5 Add carrots, continue to cook: After 3 hours, add the carrots. Cover the pot and cook for 1 hour more, or until the carrots are cooked through and the brisket is falling-apart tender.\n13. 6 Remove brisket to cutting board, tent with foil: When the brisket is falling-apart tender, take the pot out of the oven and remove the brisket to a cutting board. Cover it with foil. Pull out and discard the herbs.\n14. 7 Make sauce (optional): At this point you have two options. You can serve as is, or you can make a sauce with the drippings and some of the onions. If you serve as is, skip this step.\n15. To make a sauce, remove the carrots and half of the onions, set aside and cover them with foil. Pour the ingredients that are remaining into the pot into a blender, and purée until smooth. If you want, add 1 tablespoon of mustard to the mix. Put into a small pot and keep warm.\n16. 8 Slice the meat across the grain: Notice the lines of the muscle fibers of the roast. This is the \"grain\" of the meat. Slice the meat perpendicular to these lines, or across the grain (cutting this way further tenderizes the meat), in 1/4-inch to 1/2-inch slices.\n17. Serve with the onions, carrots and gravy. Serve with mashed, roasted or boiled potatoes, egg noodles or polenta.",
+    "steps_zh": "1. 1 准备烹饪用的牛胸肉：牛胸肉的一侧应该有一层脂肪，这是你想要的。如果有大块的脂肪，将其切掉并丢弃。大块的脂肪将无法完全消失。\n2. 使用锋利的刀，在脂肪上划出平行线，间隔约 3/4 英寸。切开脂肪，而不是牛肉。以相反方向重复此操作以制作交叉影线图案。\n3. 将牛胸肉充分加盐，并在室温下放置 30 分钟。\n4. 2烤牛胸肉：你需要一个适合烤箱的带盖厚底锅，或者荷兰烤箱，宽度刚好可以容纳烤牛胸肉，并为洋葱留出一点空间。\n5.将牛胸肉拍干，将其脂肪面朝下放入锅中，用中火加热。煮 5-8 分钟，轻轻发出嘶嘶声，直到脂肪面变成漂亮的棕色。 （如果烤肉看起来煮得太快，请将火调至中火。你想要稳定的嘶嘶声，而不是剧烈的烤焦声。）\n6. 将牛胸肉翻过来，再煮几分钟，使另一面变成棕色。\n7. 3炒洋葱和大蒜：当牛胸肉变成棕色时，将其从锅中取出并放在一边。锅里应该有几汤匙脂肪，如果没有，加一些橄榄油。\n8. 加入切碎的洋葱，将火调至最高。在洋葱上撒一点盐。炒5-8分钟，经常搅拌，直到洋葱变成浅棕色。加入大蒜，再煮 1-2 分钟。\n9. 4 将牛胸肉放回锅中，加入香草、高汤，小火煮，盖上盖子，在烤箱中烹饪：将烤箱预热至 300°F。用厨房麻线将月桂叶、迷迭香和百里香绑在一起。\n10. 将洋葱和大蒜移至锅的两侧，然后将牛胸肉放入其中。加入牛肉高汤和捆绑的香草。将高汤在炉灶上煮沸。\n11.盖上锅盖，将锅放入300°F烤箱中，煮3小时。每小时小心地翻转牛胸肉，使其受热均匀。\n12. 5加入胡萝卜，继续煮：3小时后，加入胡萝卜。盖上锅盖，再煮 1 小时，或直至胡萝卜煮熟且牛胸肉变软。\n13. 6 将牛胸肉移至切菜板上，用箔纸帐篷：当牛胸肉变软时，将锅从烤箱中取出，并将牛胸肉移至切菜板上。用箔纸盖住它。拉出并丢弃草药。\n14. 7 制作酱汁（可选）：此时你有两个选择。您可以按原样食用，也可以用滴水和一些洋葱制成酱汁。如果您按原样使用，请跳过此步骤。\n15. 制作酱汁时，取出胡萝卜和一半洋葱，放在一边并用箔纸覆盖。将锅中剩余的原料倒入搅拌机中，打成泥直至光滑。如果需要，可在混合物中添加 1 汤匙芥末。放入小锅中并保温。\n16. 8 将肉横纹切开：注意烤肉的肌肉纤维的线条。这就是肉的“颗粒”。将肉垂直于这些线切成 1/4 英寸至 1/2 英寸的片，或横过纹理（以这种方式切割可进一步使肉变嫩）。\n17. 与洋葱、胡萝卜和肉汁一起食用。与捣碎的、烤的或煮的土豆、鸡蛋面或玉米粥一起食用。"
+  },
+  "mealdb_53013": {
+    "steps_en": "1. For the Big Mac sauce, combine all the ingredients in a bowl, season with salt and chill until ready to use.\n2. To make the patties, season the mince with salt and pepper and form into 4 balls using about 1/3 cup mince each. Place each onto a square of baking paper and flatten to form into four x 15cm circles. Heat oil in a large frypan over high heat. In 2 batches, cook beef patties for 1-2 minutes each side until lightly charred and cooked through. Remove from heat and keep warm. Repeat with remaining two patties.\n3. Carefully slice each burger bun into three acrossways, then lightly toast.\n4. To assemble the burgers, spread a little Big Mac sauce over the bottom base. Top with some chopped onion, shredded lettuce, slice of cheese, beef patty and some pickle slices. Top with the middle bun layer, and spread with more Big Mac sauce, onion, lettuce, pickles, beef patty and then finish with more sauce. Top with burger lid to serve.\n5. After waiting half an hour for your food to settle, go for a jog.",
+    "steps_zh": "1. 对于巨无霸酱，将所有原料混合在一个碗中，加盐调味并冷却直至可以使用。\n2. 制作肉饼时，用盐和胡椒调味肉末，然后将肉饼分成 4 个球，每个球使用约 1/3 杯肉末。将每个放在一张正方形的烘焙纸上，压平形成四个 x 15 厘米的圆圈。在大煎锅中用高温加热油。分 2 批将牛肉饼每面煎 1-2 分钟，直至轻微烧焦并煮熟。远离热源并保暖。对剩下的两个肉饼重复上述步骤。\n3. 小心地将每个汉堡包横切成三片，然后轻轻烘烤。\n4. 组装汉堡时，在底部涂上一点巨无霸酱。上面放一些切碎的洋葱、切碎的生菜、一片奶酪、牛肉饼和一些泡菜片。上面放上中间的面包层，再涂上更多的巨无霸酱、洋葱、生菜、泡菜、牛肉饼，最后再涂上更多的酱。盖上汉堡盖即可食用。\n5. 等待半小时让食物稳定后，去慢跑。"
+  },
+  "mealdb_53016": {
+    "steps_en": "1. Wrap the chicken loosely between plastic wrap and pound gently with the flat side of a meat tenderizer until about 1/2 inch thick all around.\n2. Cut into two pieces, as even as possible.\n3. Marinate in the pickle juice for 30 minutes to one hour (add a teaspoon of Tabasco sauce now for a spicy sandwich).\n4. Beat the egg with the milk in a bowl.\n5. Combine the flour, sugar, and spices in another bowl.\n6. Dip the chicken pieces each into the egg on both sides, then coat in flour on both sides.\n7. Heat the oil in a skillet (1/2 inch deep) to about 345-350.\n8. Fry each cutlet for 2 minutes on each side, or until golden and cooked through.\n9. Blot on paper and serve on toasted buns with pickle slices.",
+    "steps_zh": "1. 将鸡肉松松地包裹在保鲜膜中，然后用嫩肉机的平坦面轻轻敲打，直至周围约 1/2 英寸厚。\n2.切成两块，尽可能均匀。\n3. 在泡菜汁中腌制 30 分钟到一小时（现在加入一茶匙塔巴斯科酱，制成辣三明治）。\n4. 将鸡蛋和牛奶放入碗中打散。\n5. 将面粉、糖和香料放入另一个碗中。\n6.将鸡块两面沾上鸡蛋液，然后两面沾上面粉。\n7. 将煎锅（1/2 英寸深）中的油加热至约 345-350 度。\n8. 将每块肉排每面煎 2 分钟，或直至呈金黄色并煮熟。\n9. 吸干纸上的水分，与泡菜片一起放在烤面包上。"
+  },
+  "mealdb_52818": {
+    "steps_en": "1. Fry your onion, peppers and garlic in olive oil until nicely translucent. Make a well in your veg and add your chicken. Add your seasoning and salt. Allow to colour slightly.\n2. Add your cream, stock and macaroni.\n3. Cook on low for 20 minutes. Add your cheeses, stir to combine.\n4. Top with roasted peppers and parsley.",
+    "steps_zh": "1. 用橄榄油将洋葱、辣椒和大蒜煎至半透明。在你的蔬菜上挖一个洞，然后加入鸡肉。添加调味料和盐。允许稍微着色。\n2. 加入奶油、高汤和通心粉。\n3.小火煮20分钟。添加奶酪，搅拌混合。\n4. 上面撒上烤辣椒和欧芹。"
+  },
+  "mealdb_52840": {
+    "steps_en": "1. Rinse the clams in several changes of cold water and drain well. Tip the clams into a large pan with 500ml of water. Cover, bring to the boil and simmer for 2 mins until the clams have just opened. Tip the contents of the pan into a colander over a bowl to catch the clam stock. When cool enough to handle, remove the clams from their shells – reserving a handful of empty shells for presentation if you want. Strain the clam stock into a jug, leaving any grit in the bottom of the bowl. You should have around 800ml stock.\n2. Heat the butter in the same pan and sizzle the bacon for 3-4 mins until it starts to brown. Stir in the onion, thyme and bay and cook everything gently for 10 mins until the onion is soft and golden. Scatter over the flour and stir in to make a sandy paste, cook for 2 mins more, then gradually stir in the clam stock then the milk and the cream.\n3. Throw in the potatoes, bring everything to a simmer and leave to bubble away gently for 10 mins or until the potatoes are cooked. Use a fork to crush a few of the potato chunks against the side of the pan to help thicken – you still want lots of defined chunks though. Stir through the clam meat and the few clam shells, if you've gone down that route, and simmer for a minute to reheat. Season with plenty of black pepper and a little salt, if needed, then stir through the parsley just before ladling into bowls or hollowed-out crusty rolls.",
+    "steps_zh": "1. 将蛤蜊用冷水冲洗几遍，沥干水分。将蛤蜊放入盛有 500 毫升水的大锅中。盖上锅盖，煮沸后小火煮2分钟，直到蛤蜊刚刚张开。将锅中的内容物倒入碗上方的漏勺中，以接住蛤蜊汤。当冷却到可以处理时，将蛤从壳中取出 - 如果需要，可以保留一把空壳以供展示。将蛤汤滤入壶中，将粗砂留在碗底。你应该有800毫升左右的库存。\n2. 在同一个平底锅中加热黄油，然后将培根煎 3-4 分钟，直至其变成棕色。加入洋葱、百里香和月桂叶，轻轻煮 10 分钟，直至洋葱变软并呈金黄色。将面粉撒在面粉上，搅拌成沙糊状，再煮 2 分钟，然后逐渐加入蛤蜊高汤，然后加入牛奶和奶油。\n3. 放入土豆，将所有材料煮沸，然后轻轻煮 10 分钟或直至土豆煮熟。用叉子在锅边压碎一些土豆块，以帮助变稠——不过，你仍然需要很多确定的土豆块。如果你已经沿着这条路走了，搅拌蛤肉和一些蛤壳，然后煮一分钟重新加热。如果需要的话，用大量黑胡椒和少许盐调味，然后搅拌欧芹，然后舀入碗或空心硬皮卷中。"
+  },
+  "chicken_rice_bowl": {
+    "steps_zh": "1. 鸡胸切丁，杂粮米煮熟。2. 鸡丁炒熟，可加少许酱油。3. 碗中盛饭，铺鸡丁与蔬菜，可配溏心蛋。",
+    "steps_en": "1. Dice chicken, cook grains. 2. Stir-fry chicken until done, optional soy sauce. 3. Bowl rice, top with chicken and veg, optional egg."
+  },
+  "tofu_broccoli": {
+    "steps_zh": "1. 豆腐切块，西兰花掰小朵。2. 豆腐煎至两面微黄，盛出。3. 西兰花炒或焯熟，与豆腐同烧，勾芡调味。",
+    "steps_en": "1. Cut tofu, break broccoli. 2. Pan-fry tofu until golden, set aside. 3. Cook broccoli, combine with tofu, thicken and season."
+  },
+  "tofu_broccoli_only": {
+    "steps_zh": "1. 豆腐切块，西兰花掰小朵。2. 蒜末爆香，下豆腐与西兰花同炒。3. 加少许水或高汤烧片刻，调味即可。",
+    "steps_en": "1. Cut tofu and broccoli. 2. Fry garlic, add tofu and broccoli. 3. Add a little water or stock, simmer and season."
+  },
+  "beef_mince_rice": {
+    "steps_zh": "1. 牛肉末用料酒、酱油腌一下。2. 热锅炒散牛肉末，加洋葱、青豆等炒匀。3. 倒入隔夜饭炒散，淋酱油调味即可。",
+    "steps_en": "1. Marinate beef mince with wine and soy. 2. Stir-fry mince, add onion and peas. 3. Add cooked rice, break up and season with soy."
+  },
+  "salmon_rice": {
+    "steps_zh": "1. 三文鱼煎或烤熟，可淋照烧汁。2. 米饭煮好，可拌少许寿司醋。3. 碗中盛饭，铺三文鱼，可配海苔、芝麻。",
+    "steps_en": "1. Pan-fry or bake salmon, optional teriyaki. 2. Cook rice, optional sushi vinegar. 3. Bowl rice, top with salmon, nori, sesame."
+  },
+  "jiaozi_meal": {
+    "steps_zh": "1. 调馅：猪肉末加姜末、酱油、盐搅匀。2. 饺子皮包馅，捏紧。3. 沸水煮至浮起再煮 2～3 分钟，或煎成锅贴。",
+    "steps_en": "1. Mix filling: pork, ginger, soy, salt. 2. Wrap in wrappers, seal. 3. Boil until floating plus 2–3 min, or pan-fry as potstickers."
+  },
+  "wonton_soup": {
+    "steps_zh": "1. 馄饨馅调好，用馄饨皮包成元宝形。2. 高汤或清水烧开，下馄饨煮至浮起熟透。3. 碗中加紫菜、葱花，盛入馄饨与汤即可。",
+    "steps_en": "1. Fill wonton wrappers, seal. 2. Boil broth or water, add wontons until cooked. 3. Bowl with nori and scallion, add wontons and soup."
+  },
+  "ramen_bowl": {
+    "steps_zh": "1. 煮好拉面，过凉水或直接盛碗。2. 高汤加热调味（味噌或酱油底）。3. 面上铺溏心蛋、叉烧、海苔、玉米等即可。",
+    "steps_en": "1. Cook ramen noodles, drain or bowl. 2. Heat and season broth (miso or soy). 3. Top with egg, chashu, nori, corn, etc."
+  },
+  "korean_noodle_stir_fry": {
+    "steps_zh": "1. 韩式年糕或拉面煮熟。2. 蒜、韩式辣酱炒香，下蔬菜与肉片炒匀。3. 加入煮好的面/年糕翻炒，调味即可。",
+    "steps_en": "1. Cook Korean noodles or rice cakes. 2. Fry garlic and gochujang, add veg and meat. 3. Toss with noodles, season."
+  },
+  "indomie_egg": {
+    "steps_zh": "1. 印尼面煮熟，沥水。2. 按包装调好料包拌匀。3. 煎一个蛋铺在面上，可加葱花、炸葱。",
+    "steps_en": "1. Cook Indomie noodles, drain. 2. Mix with seasoning from packet. 3. Top with fried egg, scallion, fried shallot."
+  },
+  "pork_belly_rice": {
+    "steps_zh": "1. 五花肉切片，用酱油、糖、料酒腌一下。2. 煎或烤至微焦出油。3. 碗中盛饭，铺五花肉、溏心蛋、腌菜即可。",
+    "steps_en": "1. Slice pork belly, marinate with soy, sugar, wine. 2. Pan-fry or grill until slightly crisp. 3. Bowl rice, top with pork, egg, pickles."
+  },
+  "shrimp_stir_fry": {
+    "steps_zh": "1. 虾仁去线，蒜切末。2. 蒜末爆香，下虾仁炒至变色。3. 加入时蔬与少许酱油或鱼露快炒即可。",
+    "steps_en": "1. Devein shrimp, mince garlic. 2. Fry garlic, add shrimp until pink. 3. Add vegetables and soy or fish sauce, quick stir-fry."
+  },
+  "spinach_eggplant": {
+    "steps_zh": "1. 茄子切条，菠菜洗净。2. 茄子煎或蒸软，蒜末爆香。3. 下菠菜与茄子同炒，调味即可。",
+    "steps_en": "1. Slice eggplant, wash spinach. 2. Cook eggplant until soft, fry garlic. 3. Add spinach and eggplant, stir-fry and season."
+  },
+  "potato_carrot_chicken": {
+    "steps_zh": "1. 鸡腿切块，土豆、胡萝卜切块。2. 鸡块炒香，加水与土豆、胡萝卜同炖。3. 炖至软烂，调味收汁即可。",
+    "steps_en": "1. Cut chicken, potato, carrot into chunks. 2. Brown chicken, add water and veg, simmer. 3. Cook until tender, season and reduce."
+  },
+  "napa_cabbage_tofu_soup": {
+    "steps_zh": "1. 白菜切段，豆腐切块。2. 锅中加水或高汤烧开，下豆腐与白菜。3. 煮至白菜软烂，加盐、白胡椒调味即可。",
+    "steps_en": "1. Cut napa and tofu. 2. Boil water or stock, add tofu and cabbage. 3. Simmer until cabbage is soft, season with salt and pepper."
+  },
+  "breakfast_oat_style": {
+    "steps_zh": "1. 香蕉、苹果、梨切小块。2. 可与燕麦、酸奶或牛奶混合，或直接拌成水果碗。3. 即食或冷藏后食用。",
+    "steps_en": "1. Chop banana, apple, pear. 2. Mix with oats, yogurt or milk, or serve as fruit bowl. 3. Eat fresh or chilled."
+  },
+  "avocado_toast_style": {
+    "steps_zh": "1. 牛油果捣成泥，加柠檬汁、盐调味。2. 番茄切片。3. 面包烤脆，抹牛油果泥，铺番茄即可。",
+    "steps_en": "1. Mash avocado with lemon and salt. 2. Slice tomato. 3. Toast bread, spread avocado, top with tomato."
+  },
+  "fruit_salad": {
+    "steps_zh": "1. 橙子、葡萄、草莓、苹果洗净切块。2. 混合放入碗中。3. 可淋少许蜂蜜或酸奶，即食。",
+    "steps_en": "1. Wash and cut oranges, grapes, strawberries, apple. 2. Combine in a bowl. 3. Optional honey or yogurt, serve."
+  },
+  "pasta_aglio_olio": {
+    "steps_zh": "1. 意面按包装煮熟，留少许面汤。2. 橄榄油炒香蒜片与辣椒，下面条翻炒。3. 加柠檬汁、盐、黑胡椒调味，可撒欧芹。",
+    "steps_en": "1. Cook pasta, reserve some water. 2. Fry garlic and chilli in olive oil, toss with pasta. 3. Lemon, salt, pepper, optional parsley."
+  },
+  "pasta_tomato_basil": {
+    "steps_zh": "1. 意面煮熟。2. 番茄、蒜、洋葱炒软成酱，加罗勒。3. 与面条拌匀，加盐与橄榄油调味。",
+    "steps_en": "1. Cook pasta. 2. Cook tomato, garlic, onion into sauce, add basil. 3. Toss with pasta, salt and olive oil."
+  },
+  "thai_stir_fry_shrimp": {
+    "steps_zh": "1. 虾仁腌一下，彩椒、豆角切好。2. 热锅爆香蒜与鱼露，下虾仁与蔬菜快炒。3. 淋青柠汁，调味即可。",
+    "steps_en": "1. Marinate shrimp, slice pepper and beans. 2. Fry garlic and fish sauce, add shrimp and veg. 3. Lime juice, season."
+  },
+  "thai_green_curry_tofu": {
+    "steps_zh": "1. 豆腐切块，备好青咖喱酱与椰浆。2. 锅中炒香咖喱酱，加椰浆与蔬菜、豆腐煮开。3. 煮至入味，配米饭。",
+    "steps_en": "1. Cut tofu, have green curry paste and coconut milk. 2. Fry paste, add coconut milk, veg and tofu, simmer. 3. Serve with rice."
+  },
+  "miso_soup_tofu": {
+    "steps_zh": "1. 水烧开，放入海带或柴鱼高汤。2. 豆腐切小块、味噌化开入锅，煮至微沸。3. 可加裙带菜、葱花，即食。",
+    "steps_en": "1. Boil water with dashi or kelp. 2. Add tofu and dissolved miso, do not boil hard. 3. Optional wakame and scallion, serve."
+  },
+  "teriyaki_salmon": {
+    "steps_zh": "1. 三文鱼用照烧汁（酱油、糖、料酒）腌片刻。2. 煎或烤至表面焦香、内里嫩熟。3. 可淋剩余酱汁，配米饭与蔬菜。",
+    "steps_en": "1. Marinate salmon in teriyaki (soy, sugar, sake). 2. Pan-fry or bake until glazed and cooked. 3. Drizzle sauce, serve with rice."
+  },
+  "black_bean_avocado_bowl": {
+    "steps_zh": "1. 黑豆煮熟或使用罐装，牛油果切块。2. 碗中铺米饭或生菜，放黑豆、牛油果、玉米、番茄等。3. 淋青柠汁与少许盐即可。",
+    "steps_en": "1. Cook or use canned black beans, slice avocado. 2. Bowl with rice or lettuce, beans, avocado, corn, tomato. 3. Lime and salt."
+  },
+  "indian_curry_chickpea_style": {
+    "steps_zh": "1. 洋葱、番茄、咖喱粉炒香。2. 加入鹰嘴豆与椰浆或番茄酱炖煮。3. 炖至入味，配米饭或饼。",
+    "steps_en": "1. Fry onion, tomato, curry powder. 2. Add chickpeas and coconut or tomato, simmer. 3. Serve with rice or flatbread."
+  },
+  "chinese_oyster_sauce_greens": {
+    "steps_zh": "1. 青菜洗净，蒜末备好。2. 沸水焯青菜或直接炒。3. 蒜末爆香，下青菜快炒，淋蚝油与少许糖调味即可。",
+    "steps_en": "1. Wash greens, mince garlic. 2. Blanch or stir-fry greens. 3. Fry garlic, add greens, oyster sauce and a little sugar."
+  },
+  "kung_pao_chicken": {
+    "steps_zh": "1. 鸡丁用淀粉、料酒腌一下，过油滑熟。2. 爆香干辣椒、花椒，下葱姜与鸡丁。3. 淋宫保汁（酱油、醋、糖、淀粉）快炒，加花生即可。",
+    "steps_en": "1. Marinate chicken, stir-fry until done. 2. Fry dried chilli and Sichuan pepper, add chicken. 3. Add kung pao sauce, peanuts."
+  },
+  "balsamic_glaze_chicken": {
+    "steps_zh": "1. 鸡胸煎至两面金黄。2. 用香醋、蜂蜜或糖调成酱汁，淋入收浓。3. 切块装盘，可配蔬菜。",
+    "steps_en": "1. Pan-fry chicken breast until golden. 2. Glaze with balsamic and honey or sugar, reduce. 3. Slice and serve with veg."
+  },
+  "korean_style_tofu": {
+    "steps_zh": "1. 豆腐切厚片，煎至两面微黄。2. 韩式辣酱、蒜、酱油、糖调成酱。3. 酱汁与豆腐同烧至入味即可。",
+    "steps_en": "1. Slice tofu, pan-fry until golden. 2. Mix gochujang, garlic, soy, sugar. 3. Simmer tofu in sauce until coated."
+  },
+  "vietnamese_style_noodle": {
+    "steps_zh": "1. 米粉煮熟过凉。2. 调鱼露汁：鱼露、青柠、糖、蒜、辣椒。3. 面上铺蔬菜、香草，淋汁拌匀即可。",
+    "steps_en": "1. Cook rice noodles, rinse. 2. Mix fish sauce, lime, sugar, garlic, chilli. 3. Top with veg and herbs, toss with dressing."
+  }
+}

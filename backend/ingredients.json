@@ -1,0 +1,3512 @@
+{
+  "beef_sirloin": {
+    "category": "meat_red",
+    "nutrition_per_100g": {
+      "calories": 206,
+      "protein": 27,
+      "carbs": 0,
+      "fat": 10,
+      "fiber": 0
+    },
+    "price_per_kg": 18.99,
+    "availability": {
+      "UK": 0.2,
+      "CN": 0.45
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 3,
+      "frozen_days": 90
+    },
+    "name": "Beef Sirloin",
+    "name_zh": "牛沙朗"
+  },
+  "beef_brisket": {
+    "category": "meat_red",
+    "nutrition_per_100g": {
+      "calories": 250,
+      "protein": 26,
+      "carbs": 0,
+      "fat": 17,
+      "fiber": 0
+    },
+    "price_per_kg": 12.99,
+    "availability": {
+      "UK": 0.2,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 3,
+      "frozen_days": 90
+    },
+    "name": "Beef Brisket",
+    "name_zh": "牛腩"
+  },
+  "beef_ribeye": {
+    "category": "meat_red",
+    "nutrition_per_100g": {
+      "calories": 271,
+      "protein": 25,
+      "carbs": 0,
+      "fat": 19,
+      "fiber": 0
+    },
+    "price_per_kg": 22.99,
+    "availability": {
+      "UK": 0.2,
+      "CN": 0.45
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 3,
+      "frozen_days": 90
+    },
+    "name": "Beef Ribeye",
+    "name_zh": "肋眼牛肉"
+  },
+  "beef_shank": {
+    "category": "meat_red",
+    "nutrition_per_100g": {
+      "calories": 175,
+      "protein": 28,
+      "carbs": 0,
+      "fat": 6,
+      "fiber": 0
+    },
+    "price_per_kg": 9.99,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 3,
+      "frozen_days": 90
+    },
+    "name": "Beef Shank",
+    "name_zh": "牛小腿"
+  },
+  "beef_mince": {
+    "category": "meat_red",
+    "nutrition_per_100g": {
+      "calories": 254,
+      "protein": 26,
+      "carbs": 0,
+      "fat": 15,
+      "fiber": 0
+    },
+    "price_per_kg": 6.99,
+    "availability": {
+      "UK": 0.05,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 2,
+      "frozen_days": 90
+    },
+    "name": "Beef Mince",
+    "name_zh": "牛肉碎"
+  },
+  "chicken_breast": {
+    "category": "meat_poultry",
+    "nutrition_per_100g": {
+      "calories": 165,
+      "protein": 31,
+      "carbs": 0,
+      "fat": 3.6,
+      "fiber": 0
+    },
+    "price_per_kg": 5.99,
+    "availability": {
+      "UK": 0.2,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 2,
+      "frozen_days": 90
+    },
+    "purchase_options": [
+      {
+        "weight_g": 400,
+        "price": 2.99
+      },
+      {
+        "weight_g": 800,
+        "price": 4.79
+      },
+      {
+        "weight_g": 1200,
+        "price": 5.99
+      }
+    ],
+    "name": "Chicken Breast",
+    "name_zh": "鸡胸肉"
+  },
+  "chicken_thigh": {
+    "category": "meat_poultry",
+    "nutrition_per_100g": {
+      "calories": 209,
+      "protein": 26,
+      "carbs": 0,
+      "fat": 10.9,
+      "fiber": 0
+    },
+    "price_per_kg": 4.49,
+    "availability": {
+      "UK": 0.2,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 2,
+      "frozen_days": 90
+    },
+    "name": "Chicken Thigh",
+    "name_zh": "鸡大腿"
+  },
+  "chicken_wing": {
+    "category": "meat_poultry",
+    "nutrition_per_100g": {
+      "calories": 203,
+      "protein": 30.5,
+      "carbs": 0,
+      "fat": 8.1,
+      "fiber": 0
+    },
+    "price_per_kg": 3.99,
+    "availability": {
+      "UK": 0.2,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 2,
+      "frozen_days": 90
+    },
+    "name": "Chicken Wing",
+    "name_zh": "鸡翅"
+  },
+  "pork_belly": {
+    "category": "meat_red",
+    "nutrition_per_100g": {
+      "calories": 518,
+      "protein": 9.3,
+      "carbs": 0,
+      "fat": 53,
+      "fiber": 0
+    },
+    "price_per_kg": 7.99,
+    "availability": {
+      "UK": 0.2,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 3,
+      "frozen_days": 90
+    },
+    "name": "Pork Belly",
+    "name_zh": "五花肉"
+  },
+  "pork_loin": {
+    "category": "meat_red",
+    "nutrition_per_100g": {
+      "calories": 143,
+      "protein": 26,
+      "carbs": 0,
+      "fat": 3.5,
+      "fiber": 0
+    },
+    "price_per_kg": 8.99,
+    "availability": {
+      "UK": 0.2,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 3,
+      "frozen_days": 90
+    },
+    "name": "Pork Loin",
+    "name_zh": "猪腰肉"
+  },
+  "pork_shoulder": {
+    "category": "meat_red",
+    "nutrition_per_100g": {
+      "calories": 242,
+      "protein": 27,
+      "carbs": 0,
+      "fat": 14,
+      "fiber": 0
+    },
+    "price_per_kg": 5.49,
+    "availability": {
+      "UK": 0.2,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 3,
+      "frozen_days": 90
+    },
+    "name": "Pork Shoulder",
+    "name_zh": "肘"
+  },
+  "lamb_chop": {
+    "category": "meat_red",
+    "nutrition_per_100g": {
+      "calories": 294,
+      "protein": 25,
+      "carbs": 0,
+      "fat": 21,
+      "fiber": 0
+    },
+    "price_per_kg": 14.99,
+    "availability": {
+      "UK": 0.2,
+      "CN": 0.45
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 3,
+      "frozen_days": 90
+    },
+    "name": "Lamb Chop",
+    "name_zh": "羊排"
+  },
+  "duck_breast": {
+    "category": "meat_poultry",
+    "nutrition_per_100g": {
+      "calories": 201,
+      "protein": 23,
+      "carbs": 0,
+      "fat": 12,
+      "fiber": 0
+    },
+    "price_per_kg": 16.99,
+    "availability": {
+      "UK": 0.2,
+      "CN": 0.45
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 2,
+      "frozen_days": 90
+    },
+    "name": "Duck Breast",
+    "name_zh": "鸭胸"
+  },
+  "salmon_atlantic": {
+    "category": "fish",
+    "nutrition_per_100g": {
+      "calories": 206,
+      "protein": 22,
+      "carbs": 0,
+      "fat": 13,
+      "fiber": 0
+    },
+    "price_per_kg": 15.99,
+    "availability": {
+      "UK": 0.2,
+      "CN": 0.45
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 3,
+      "frozen_days": 60
+    },
+    "name": "Salmon Atlantic",
+    "name_zh": "大西洋鲑鱼"
+  },
+  "cod_fillet": {
+    "category": "fish",
+    "nutrition_per_100g": {
+      "calories": 82,
+      "protein": 18,
+      "carbs": 0,
+      "fat": 0.7,
+      "fiber": 0
+    },
+    "price_per_kg": 12.99,
+    "availability": {
+      "UK": 0.2,
+      "CN": 0.45
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 2,
+      "frozen_days": 90
+    },
+    "name": "Cod Fillet",
+    "name_zh": "鳕鱼片"
+  },
+  "shrimp": {
+    "category": "fish",
+    "nutrition_per_100g": {
+      "calories": 99,
+      "protein": 24,
+      "carbs": 0.2,
+      "fat": 0.3,
+      "fiber": 0
+    },
+    "price_per_kg": 14.99,
+    "availability": {
+      "UK": 0.2,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 2,
+      "frozen_days": 90
+    },
+    "name": "Shrimp",
+    "name_zh": "虾"
+  },
+  "squid": {
+    "category": "fish",
+    "nutrition_per_100g": {
+      "calories": 92,
+      "protein": 16,
+      "carbs": 3.1,
+      "fat": 1.4,
+      "fiber": 0
+    },
+    "price_per_kg": 11.99,
+    "availability": {
+      "UK": 0.2,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 2,
+      "frozen_days": 90
+    },
+    "name": "Squid",
+    "name_zh": "乌贼"
+  },
+  "tuna_fresh": {
+    "category": "fish",
+    "nutrition_per_100g": {
+      "calories": 132,
+      "protein": 28,
+      "carbs": 0,
+      "fat": 1,
+      "fiber": 0
+    },
+    "price_per_kg": 24.99,
+    "availability": {
+      "UK": 0.2,
+      "CN": 0.45
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 2,
+      "frozen_days": 90
+    },
+    "name": "Tuna Fresh",
+    "name_zh": "新鲜金枪鱼"
+  },
+  "broccoli": {
+    "category": "vegetable",
+    "nutrition_per_100g": {
+      "calories": 55,
+      "protein": 4,
+      "carbs": 11,
+      "fat": 0.6,
+      "fiber": 2.6
+    },
+    "price_per_kg": 2.49,
+    "availability": {
+      "UK": 0.05,
+      "CN": 0.2
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 5,
+      "frozen_days": 60
+    },
+    "purchase_options": [
+      {
+        "weight_g": 350,
+        "price": 0.99
+      },
+      {
+        "weight_g": 600,
+        "price": 1.49
+      }
+    ],
+    "name": "Broccoli",
+    "name_zh": "西兰花"
+  },
+  "spinach": {
+    "category": "vegetable",
+    "nutrition_per_100g": {
+      "calories": 23,
+      "protein": 2.9,
+      "carbs": 3.6,
+      "fat": 0.4,
+      "fiber": 2.2
+    },
+    "price_per_kg": 3.49,
+    "availability": {
+      "UK": 0.05,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 5,
+      "frozen_days": 60
+    },
+    "name": "Spinach",
+    "name_zh": "菠菜"
+  },
+  "carrots": {
+    "category": "vegetable",
+    "nutrition_per_100g": {
+      "calories": 41,
+      "protein": 0.9,
+      "carbs": 10,
+      "fat": 0.2,
+      "fiber": 2.8
+    },
+    "price_per_kg": 1.49,
+    "availability": {
+      "UK": 0.05,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": 7,
+      "refrigerated_days": 14,
+      "frozen_days": 90
+    },
+    "name": "Carrots",
+    "name_zh": "胡萝卜"
+  },
+  "potatoes": {
+    "category": "vegetable",
+    "nutrition_per_100g": {
+      "calories": 77,
+      "protein": 2,
+      "carbs": 17,
+      "fat": 0.1,
+      "fiber": 2.2
+    },
+    "price_per_kg": 0.99,
+    "availability": {
+      "UK": 0.05,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": 30,
+      "refrigerated_days": 45,
+      "frozen_days": 120
+    },
+    "name": "Potatoes",
+    "name_zh": "土豆"
+  },
+  "tomato": {
+    "category": "vegetable",
+    "nutrition_per_100g": {
+      "calories": 18,
+      "protein": 0.9,
+      "carbs": 3.9,
+      "fat": 0.2,
+      "fiber": 1.2
+    },
+    "price_per_kg": 2.99,
+    "availability": {
+      "UK": 0.05,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": 7,
+      "refrigerated_days": 10,
+      "frozen_days": null
+    },
+    "name": "Tomato",
+    "name_zh": "番茄"
+  },
+  "onion_yellow": {
+    "category": "vegetable",
+    "nutrition_per_100g": {
+      "calories": 40,
+      "protein": 1.1,
+      "carbs": 9.3,
+      "fat": 0.1,
+      "fiber": 1.7
+    },
+    "price_per_kg": 1.29,
+    "availability": {
+      "UK": 0.05,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": 30,
+      "refrigerated_days": 60,
+      "frozen_days": null
+    },
+    "name": "Onion Yellow",
+    "name_zh": "洋葱黄"
+  },
+  "garlic": {
+    "category": "vegetable",
+    "nutrition_per_100g": {
+      "calories": 149,
+      "protein": 6.4,
+      "carbs": 33,
+      "fat": 0.5,
+      "fiber": 2.1
+    },
+    "price_per_kg": 4.99,
+    "availability": {
+      "UK": 0.05,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": 60,
+      "refrigerated_days": 90,
+      "frozen_days": null
+    },
+    "name": "Garlic",
+    "name_zh": "蒜"
+  },
+  "bell_pepper_red": {
+    "category": "vegetable",
+    "nutrition_per_100g": {
+      "calories": 31,
+      "protein": 1,
+      "carbs": 6,
+      "fat": 0.3,
+      "fiber": 2.1
+    },
+    "price_per_kg": 4.99,
+    "availability": {
+      "UK": 0.05,
+      "CN": 0.2
+    },
+    "storage": {
+      "room_temp_days": 7,
+      "refrigerated_days": 14,
+      "frozen_days": 60
+    },
+    "name": "Bell Pepper Red",
+    "name_zh": "甜椒红"
+  },
+  "napa_cabbage": {
+    "category": "vegetable",
+    "nutrition_per_100g": {
+      "calories": 16,
+      "protein": 1.2,
+      "carbs": 3.2,
+      "fat": 0.2,
+      "fiber": 1.2
+    },
+    "price_per_kg": 1.99,
+    "availability": {
+      "UK": 0.05,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": 3,
+      "refrigerated_days": 7,
+      "frozen_days": 60
+    },
+    "name": "Napa Cabbage",
+    "name_zh": "纳帕卷心菜"
+  },
+  "bok_choy": {
+    "category": "vegetable",
+    "nutrition_per_100g": {
+      "calories": 13,
+      "protein": 1.5,
+      "carbs": 2.2,
+      "fat": 0.2,
+      "fiber": 1
+    },
+    "price_per_kg": 2.49,
+    "availability": {
+      "UK": 0.05,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": 2,
+      "refrigerated_days": 5,
+      "frozen_days": 60
+    },
+    "name": "Bok Choy",
+    "name_zh": "白菜"
+  },
+  "shiitake_mushroom": {
+    "category": "vegetable",
+    "nutrition_per_100g": {
+      "calories": 34,
+      "protein": 2.2,
+      "carbs": 6.8,
+      "fat": 0.5,
+      "fiber": 2.5
+    },
+    "price_per_kg": 12.99,
+    "availability": {
+      "UK": 0.2,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Shiitake Mushroom",
+    "name_zh": "香菇"
+  },
+  "green_bean": {
+    "category": "vegetable",
+    "nutrition_per_100g": {
+      "calories": 31,
+      "protein": 1.8,
+      "carbs": 7,
+      "fat": 0.1,
+      "fiber": 2.7
+    },
+    "price_per_kg": 3.99,
+    "availability": {
+      "UK": 0.05,
+      "CN": 0.2
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 5,
+      "frozen_days": 90
+    },
+    "name": "Green Bean",
+    "name_zh": "绿豆"
+  },
+  "eggplant": {
+    "category": "vegetable",
+    "nutrition_per_100g": {
+      "calories": 25,
+      "protein": 1,
+      "carbs": 6,
+      "fat": 0.2,
+      "fiber": 3
+    },
+    "price_per_kg": 2.99,
+    "availability": {
+      "UK": 0.05,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": 3,
+      "refrigerated_days": 7,
+      "frozen_days": 60
+    },
+    "name": "Eggplant",
+    "name_zh": "茄子"
+  },
+  "cucumber": {
+    "category": "vegetable",
+    "nutrition_per_100g": {
+      "calories": 15,
+      "protein": 0.7,
+      "carbs": 3.6,
+      "fat": 0.1,
+      "fiber": 0.5
+    },
+    "price_per_kg": 1.99,
+    "availability": {
+      "UK": 0.05,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": 3,
+      "refrigerated_days": 7,
+      "frozen_days": null
+    },
+    "name": "Cucumber",
+    "name_zh": "黄瓜"
+  },
+  "ginger": {
+    "category": "vegetable",
+    "nutrition_per_100g": {
+      "calories": 80,
+      "protein": 1.8,
+      "carbs": 18,
+      "fat": 0.8,
+      "fiber": 2
+    },
+    "price_per_kg": 5.99,
+    "availability": {
+      "UK": 0.05,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": 21,
+      "refrigerated_days": 45,
+      "frozen_days": 90
+    },
+    "name": "Ginger",
+    "name_zh": "姜"
+  },
+  "romaine_lettuce": {
+    "category": "vegetable",
+    "nutrition_per_100g": {
+      "calories": 17,
+      "protein": 1.2,
+      "carbs": 3.3,
+      "fat": 0.3,
+      "fiber": 2.1
+    },
+    "price_per_kg": 3.49,
+    "availability": {
+      "UK": 0.05,
+      "CN": 0.2
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": null
+    },
+    "name": "Romaine Lettuce",
+    "name_zh": "生菜"
+  },
+  "apples": {
+    "category": "fruit",
+    "nutrition_per_100g": {
+      "calories": 52,
+      "protein": 0.3,
+      "carbs": 14,
+      "fat": 0.2,
+      "fiber": 2.4
+    },
+    "price_per_kg": 2.99,
+    "availability": {
+      "UK": 0.05,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": 7,
+      "refrigerated_days": 14,
+      "frozen_days": null
+    },
+    "name": "Apples",
+    "name_zh": "苹果"
+  },
+  "bananas": {
+    "category": "fruit",
+    "nutrition_per_100g": {
+      "calories": 89,
+      "protein": 1.1,
+      "carbs": 23,
+      "fat": 0.3,
+      "fiber": 2.6
+    },
+    "price_per_kg": 1.25,
+    "availability": {
+      "UK": 0.05,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": 7,
+      "refrigerated_days": 10,
+      "frozen_days": 60
+    },
+    "name": "Bananas",
+    "name_zh": "香蕉"
+  },
+  "grapes": {
+    "category": "fruit",
+    "nutrition_per_100g": {
+      "calories": 69,
+      "protein": 0.6,
+      "carbs": 18,
+      "fat": 0.2,
+      "fiber": 0.9
+    },
+    "price_per_kg": 3.99,
+    "availability": {
+      "UK": 0.2,
+      "CN": 0.2
+    },
+    "storage": {
+      "room_temp_days": 2,
+      "refrigerated_days": 5,
+      "frozen_days": 60
+    },
+    "name": "Grapes",
+    "name_zh": "葡萄"
+  },
+  "oranges": {
+    "category": "fruit",
+    "nutrition_per_100g": {
+      "calories": 47,
+      "protein": 0.9,
+      "carbs": 12,
+      "fat": 0.1,
+      "fiber": 2.4
+    },
+    "price_per_kg": 2.49,
+    "availability": {
+      "UK": 0.05,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": 14,
+      "refrigerated_days": 21,
+      "frozen_days": null
+    },
+    "name": "Oranges",
+    "name_zh": "橙子"
+  },
+  "lemon": {
+    "category": "fruit",
+    "nutrition_per_100g": {
+      "calories": 29,
+      "protein": 1.1,
+      "carbs": 9,
+      "fat": 0.3,
+      "fiber": 2.8
+    },
+    "price_per_kg": 3.49,
+    "availability": {
+      "UK": 0.05,
+      "CN": 0.2
+    },
+    "storage": {
+      "room_temp_days": 14,
+      "refrigerated_days": 28,
+      "frozen_days": null
+    },
+    "name": "Lemon",
+    "name_zh": "柠檬"
+  },
+  "avocado": {
+    "category": "fruit",
+    "nutrition_per_100g": {
+      "calories": 160,
+      "protein": 2,
+      "carbs": 8.5,
+      "fat": 15,
+      "fiber": 6.7
+    },
+    "price_per_kg": 4.99,
+    "availability": {
+      "UK": 0.2,
+      "CN": 0.45
+    },
+    "storage": {
+      "room_temp_days": 5,
+      "refrigerated_days": 7,
+      "frozen_days": null
+    },
+    "name": "Avocado",
+    "name_zh": "牛油果"
+  },
+  "strawberry": {
+    "category": "fruit",
+    "nutrition_per_100g": {
+      "calories": 32,
+      "protein": 0.7,
+      "carbs": 7.7,
+      "fat": 0.3,
+      "fiber": 2
+    },
+    "price_per_kg": 5.99,
+    "availability": {
+      "UK": 0.05,
+      "CN": 0.2
+    },
+    "storage": {
+      "room_temp_days": 1,
+      "refrigerated_days": 5,
+      "frozen_days": 180
+    },
+    "name": "Strawberry",
+    "name_zh": "草莓"
+  },
+  "mango": {
+    "category": "fruit",
+    "nutrition_per_100g": {
+      "calories": 60,
+      "protein": 0.8,
+      "carbs": 15,
+      "fat": 0.4,
+      "fiber": 1.6
+    },
+    "price_per_kg": 3.99,
+    "availability": {
+      "UK": 0.2,
+      "CN": 0.2
+    },
+    "storage": {
+      "room_temp_days": 5,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Mango",
+    "name_zh": "芒果"
+  },
+  "pear": {
+    "category": "fruit",
+    "nutrition_per_100g": {
+      "calories": 57,
+      "protein": 0.4,
+      "carbs": 15,
+      "fat": 0.1,
+      "fiber": 3.1
+    },
+    "price_per_kg": 2.99,
+    "availability": {
+      "UK": 0.05,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": 7,
+      "refrigerated_days": 14,
+      "frozen_days": null
+    },
+    "name": "Pear",
+    "name_zh": "梨"
+  },
+  "jiaozi_pork": {
+    "category": "frozen_ready",
+    "nutrition_per_100g": {
+      "calories": 220,
+      "protein": 8,
+      "carbs": 28,
+      "fat": 8,
+      "fiber": 1
+    },
+    "price_per_kg": 5.99,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": null,
+      "frozen_days": 180
+    },
+    "name": "Jiaozi Pork",
+    "name_zh": "饺子猪肉"
+  },
+  "jiaozi_vegetable": {
+    "category": "frozen_ready",
+    "nutrition_per_100g": {
+      "calories": 180,
+      "protein": 5,
+      "carbs": 30,
+      "fat": 4,
+      "fiber": 2
+    },
+    "price_per_kg": 5.49,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": null,
+      "frozen_days": 180
+    },
+    "name": "Jiaozi Vegetable",
+    "name_zh": "饺子菜"
+  },
+  "wonton_pork": {
+    "category": "frozen_ready",
+    "nutrition_per_100g": {
+      "calories": 195,
+      "protein": 9,
+      "carbs": 22,
+      "fat": 6,
+      "fiber": 0.8
+    },
+    "price_per_kg": 6.99,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": null,
+      "frozen_days": 180
+    },
+    "name": "Wonton Pork",
+    "name_zh": "猪肉馄饨"
+  },
+  "instant_noodles_chinese": {
+    "category": "processed",
+    "nutrition_per_100g": {
+      "calories": 450,
+      "protein": 9,
+      "carbs": 62,
+      "fat": 20,
+      "fiber": 2
+    },
+    "price_per_kg": 2.49,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": 365,
+      "refrigerated_days": null,
+      "frozen_days": null
+    },
+    "name": "Instant Noodles Chinese",
+    "name_zh": "方便面 中式"
+  },
+  "instant_noodles_japanese_ramen": {
+    "category": "processed",
+    "nutrition_per_100g": {
+      "calories": 440,
+      "protein": 11,
+      "carbs": 58,
+      "fat": 19,
+      "fiber": 2.5
+    },
+    "price_per_kg": 8.99,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.45
+    },
+    "storage": {
+      "room_temp_days": 365,
+      "refrigerated_days": null,
+      "frozen_days": null
+    },
+    "name": "Instant Noodles Japanese Ramen",
+    "name_zh": "方便面 日本拉面"
+  },
+  "instant_noodles_korean": {
+    "category": "processed",
+    "nutrition_per_100g": {
+      "calories": 460,
+      "protein": 10,
+      "carbs": 64,
+      "fat": 19,
+      "fiber": 2
+    },
+    "price_per_kg": 5.99,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.45
+    },
+    "storage": {
+      "room_temp_days": 365,
+      "refrigerated_days": null,
+      "frozen_days": null
+    },
+    "name": "Instant Noodles Korean",
+    "name_zh": "方便面 韩式"
+  },
+  "instant_noodles_indomie": {
+    "category": "processed",
+    "nutrition_per_100g": {
+      "calories": 430,
+      "protein": 10,
+      "carbs": 60,
+      "fat": 18,
+      "fiber": 2
+    },
+    "price_per_kg": 3.99,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.2
+    },
+    "storage": {
+      "room_temp_days": 365,
+      "refrigerated_days": null,
+      "frozen_days": null
+    },
+    "name": "Instant Noodles Indomie",
+    "name_zh": "方便面 Indomie"
+  },
+  "instant_noodles_udon": {
+    "category": "processed",
+    "nutrition_per_100g": {
+      "calories": 140,
+      "protein": 4,
+      "carbs": 26,
+      "fat": 0.5,
+      "fiber": 1
+    },
+    "price_per_kg": 6.99,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.45
+    },
+    "storage": {
+      "room_temp_days": 180,
+      "refrigerated_days": null,
+      "frozen_days": null
+    },
+    "name": "Instant Noodles Udon",
+    "name_zh": "方便面乌冬面"
+  },
+  "tofu_firm": {
+    "category": "plant_protein",
+    "nutrition_per_100g": {
+      "calories": 76,
+      "protein": 8.1,
+      "carbs": 1.9,
+      "fat": 4.8,
+      "fiber": 0.3
+    },
+    "price_per_kg": 3.99,
+    "availability": {
+      "UK": 0.2,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 5,
+      "frozen_days": 90
+    },
+    "purchase_options": [
+      {
+        "weight_g": 400,
+        "price": 1.59
+      },
+      {
+        "weight_g": 800,
+        "price": 2.99
+      }
+    ],
+    "name": "Tofu Firm",
+    "name_zh": "豆腐行"
+  },
+  "white_rice": {
+    "category": "grain",
+    "nutrition_per_100g": {
+      "calories": 130,
+      "protein": 2.7,
+      "carbs": 28,
+      "fat": 0.3,
+      "fiber": 0.4
+    },
+    "price_per_kg": 1.49,
+    "availability": {
+      "UK": 0.05,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": 365,
+      "refrigerated_days": null,
+      "frozen_days": null
+    },
+    "name": "White Rice",
+    "name_zh": "白米饭"
+  },
+  "soy_sauce": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 53,
+      "protein": 5.6,
+      "carbs": 6,
+      "fat": 0,
+      "fiber": 0.8
+    },
+    "price_per_kg": 4.99,
+    "availability": {
+      "UK": 0.2,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": 365,
+      "refrigerated_days": null,
+      "frozen_days": null
+    },
+    "name": "Soy Sauce",
+    "name_zh": "酱油"
+  },
+  "oyster_sauce": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 51,
+      "protein": 2.3,
+      "carbs": 11,
+      "fat": 0.1,
+      "fiber": 0.2
+    },
+    "price_per_kg": 6.99,
+    "availability": {
+      "UK": 0.3,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": 365,
+      "refrigerated_days": null,
+      "frozen_days": null
+    },
+    "name": "Oyster Sauce",
+    "name_zh": "蚝油"
+  },
+  "fish_sauce": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 31,
+      "protein": 5.1,
+      "carbs": 0,
+      "fat": 0,
+      "fiber": 0
+    },
+    "price_per_kg": 8.99,
+    "availability": {
+      "UK": 0.4,
+      "CN": 0.3
+    },
+    "storage": {
+      "room_temp_days": 365,
+      "refrigerated_days": null,
+      "frozen_days": null
+    },
+    "name": "Fish Sauce",
+    "name_zh": "鱼露"
+  },
+  "miso_paste": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 198,
+      "protein": 12.8,
+      "carbs": 25,
+      "fat": 6,
+      "fiber": 5.4
+    },
+    "price_per_kg": 12.99,
+    "availability": {
+      "UK": 0.3,
+      "CN": 0.4
+    },
+    "storage": {
+      "room_temp_days": 90,
+      "refrigerated_days": 365,
+      "frozen_days": null
+    },
+    "name": "Miso Paste",
+    "name_zh": "味噌酱"
+  },
+  "chili_garlic_paste": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 77,
+      "protein": 3.2,
+      "carbs": 15,
+      "fat": 0.4,
+      "fiber": 2.1
+    },
+    "price_per_kg": 5.99,
+    "availability": {
+      "UK": 0.25,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": 180,
+      "refrigerated_days": null,
+      "frozen_days": null
+    },
+    "name": "Chili Garlic Paste",
+    "name_zh": "辣椒蒜酱"
+  },
+  "tomato_paste": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 82,
+      "protein": 4.8,
+      "carbs": 19,
+      "fat": 0.5,
+      "fiber": 4.1
+    },
+    "price_per_kg": 3.99,
+    "availability": {
+      "UK": 0.05,
+      "CN": 0.1
+    },
+    "storage": {
+      "room_temp_days": 365,
+      "refrigerated_days": 7,
+      "frozen_days": null
+    },
+    "name": "Tomato Paste",
+    "name_zh": "番茄酱"
+  },
+  "olive_oil": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 884,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 100,
+      "fiber": 0
+    },
+    "price_per_kg": 9.99,
+    "availability": {
+      "UK": 0.05,
+      "CN": 0.2
+    },
+    "storage": {
+      "room_temp_days": 365,
+      "refrigerated_days": null,
+      "frozen_days": null
+    },
+    "name": "Olive Oil",
+    "name_zh": "橄榄油"
+  },
+  "sesame_oil": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 884,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 100,
+      "fiber": 0
+    },
+    "price_per_kg": 14.99,
+    "availability": {
+      "UK": 0.2,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": 365,
+      "refrigerated_days": null,
+      "frozen_days": null
+    },
+    "name": "Sesame Oil",
+    "name_zh": "香油"
+  },
+  "rice_vinegar": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 18,
+      "protein": 0,
+      "carbs": 0.2,
+      "fat": 0,
+      "fiber": 0
+    },
+    "price_per_kg": 4.49,
+    "availability": {
+      "UK": 0.25,
+      "CN": 0.05
+    },
+    "storage": {
+      "room_temp_days": 365,
+      "refrigerated_days": null,
+      "frozen_days": null
+    },
+    "name": "Rice Vinegar",
+    "name_zh": "米醋"
+  },
+  "balsamic_vinegar": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 88,
+      "protein": 0.5,
+      "carbs": 17,
+      "fat": 0,
+      "fiber": 0
+    },
+    "price_per_kg": 12.99,
+    "availability": {
+      "UK": 0.1,
+      "CN": 0.3
+    },
+    "storage": {
+      "room_temp_days": 365,
+      "refrigerated_days": null,
+      "frozen_days": null
+    },
+    "name": "Balsamic Vinegar",
+    "name_zh": "香醋"
+  },
+  "curry_paste_thai": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 98,
+      "protein": 2.2,
+      "carbs": 12,
+      "fat": 4.5,
+      "fiber": 2.8
+    },
+    "price_per_kg": 15.99,
+    "availability": {
+      "UK": 0.35,
+      "CN": 0.4
+    },
+    "storage": {
+      "room_temp_days": 90,
+      "refrigerated_days": 365,
+      "frozen_days": null
+    },
+    "name": "Curry Paste Thai",
+    "name_zh": "泰式咖喱酱"
+  },
+  "coconut_milk": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 230,
+      "protein": 2.3,
+      "carbs": 5.5,
+      "fat": 24,
+      "fiber": 0
+    },
+    "price_per_kg": 3.99,
+    "availability": {
+      "UK": 0.15,
+      "CN": 0.2
+    },
+    "storage": {
+      "room_temp_days": 365,
+      "refrigerated_days": 3,
+      "frozen_days": null
+    },
+    "name": "Coconut Milk",
+    "name_zh": "椰奶"
+  },
+  "pasta_spaghetti": {
+    "category": "grain",
+    "nutrition_per_100g": {
+      "calories": 371,
+      "protein": 13,
+      "carbs": 74,
+      "fat": 1.5,
+      "fiber": 3.2
+    },
+    "price_per_kg": 2.49,
+    "availability": {
+      "UK": 0.05,
+      "CN": 0.1
+    },
+    "storage": {
+      "room_temp_days": 365,
+      "refrigerated_days": null,
+      "frozen_days": null
+    },
+    "name": "Pasta Spaghetti",
+    "name_zh": "意大利面 意大利面条"
+  },
+  "black_beans_canned": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 132,
+      "protein": 8.9,
+      "carbs": 24,
+      "fat": 0.5,
+      "fiber": 8.7
+    },
+    "price_per_kg": 2.99,
+    "availability": {
+      "UK": 0.1,
+      "CN": 0.3
+    },
+    "storage": {
+      "room_temp_days": 365,
+      "refrigerated_days": 3,
+      "frozen_days": null
+    },
+    "name": "Black Beans Canned",
+    "name_zh": "黑豆罐头"
+  },
+  "lime": {
+    "category": "fruit",
+    "nutrition_per_100g": {
+      "calories": 30,
+      "protein": 0.7,
+      "carbs": 11,
+      "fat": 0.2,
+      "fiber": 2.8
+    },
+    "price_per_kg": 4.99,
+    "availability": {
+      "UK": 0.2,
+      "CN": 0.15
+    },
+    "storage": {
+      "room_temp_days": 14,
+      "refrigerated_days": 21,
+      "frozen_days": null
+    },
+    "name": "Lime",
+    "name_zh": "酸橙"
+  },
+  "curry_powder": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 325,
+      "protein": 14,
+      "carbs": 56,
+      "fat": 14,
+      "fiber": 33
+    },
+    "price_per_kg": 18.99,
+    "availability": {
+      "UK": 0.1,
+      "CN": 0.2
+    },
+    "storage": {
+      "room_temp_days": 365,
+      "refrigerated_days": null,
+      "frozen_days": null
+    },
+    "name": "Curry Powder",
+    "name_zh": "咖喱粉"
+  },
+  "mealdb_jalapeno": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Jalapeno",
+    "name_zh": "墨西哥辣椒"
+  },
+  "mealdb_salt": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Salt",
+    "name_zh": "盐"
+  },
+  "mealdb_semolina": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Semolina",
+    "name_zh": "粗面粉"
+  },
+  "mealdb_water": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Water",
+    "name_zh": "水"
+  },
+  "mealdb_black_pepper": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Black Pepper",
+    "name_zh": "黑胡椒"
+  },
+  "mealdb_ground_cinnamon": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Ground Cinnamon",
+    "name_zh": "肉桂粉"
+  },
+  "mealdb_ground_cumin": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Ground Cumin",
+    "name_zh": "小茴香粉"
+  },
+  "mealdb_thyme": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Thyme",
+    "name_zh": "百里香"
+  },
+  "mealdb_bay_leaf": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Bay Leaf",
+    "name_zh": "月桂叶"
+  },
+  "mealdb_lemon_juice": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Lemon Juice",
+    "name_zh": "柠檬汁"
+  },
+  "mealdb_red_onions": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Red Onions",
+    "name_zh": "红洋葱"
+  },
+  "mealdb_pepper": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Pepper",
+    "name_zh": "胡椒"
+  },
+  "mealdb_plum_tomatoes": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Plum Tomatoes",
+    "name_zh": "梅子番茄"
+  },
+  "mealdb_parsley": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Parsley",
+    "name_zh": "香菜"
+  },
+  "mealdb_egg": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Egg",
+    "name_zh": "蛋"
+  },
+  "mealdb_gouda_cheese": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Gouda Cheese",
+    "name_zh": "豪达奶酪"
+  },
+  "mealdb_emmentaler_cheese": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Emmentaler Cheese",
+    "name_zh": "埃门塔尔奶酪"
+  },
+  "mealdb_phyllo_dough": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Phyllo Dough",
+    "name_zh": "菲罗面团"
+  },
+  "mealdb_unsalted_butter": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Unsalted Butter",
+    "name_zh": "无盐黄油"
+  },
+  "mealdb_freekeh": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Freekeh",
+    "name_zh": "弗里克"
+  },
+  "mealdb_lamb": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Lamb",
+    "name_zh": "羊肉"
+  },
+  "mealdb_paprika": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Paprika",
+    "name_zh": "辣椒"
+  },
+  "mealdb_cilantro": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Cilantro",
+    "name_zh": "香菜"
+  },
+  "mealdb_mint": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Mint",
+    "name_zh": "薄荷"
+  },
+  "mealdb_celery": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Celery",
+    "name_zh": "芹菜"
+  },
+  "mealdb_chickpeas": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Chickpeas",
+    "name_zh": "鹰嘴豆"
+  },
+  "mealdb_zucchini": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Zucchini",
+    "name_zh": "西葫芦"
+  },
+  "mealdb_tomato_puree": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Tomato Puree",
+    "name_zh": "番茄泥"
+  },
+  "mealdb_red_chilli": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Red Chilli",
+    "name_zh": "红辣椒"
+  },
+  "mealdb_cayenne_pepper": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Cayenne Pepper",
+    "name_zh": "辣椒"
+  },
+  "mealdb_new_potatoes": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "New Potatoes",
+    "name_zh": "新土豆"
+  },
+  "mealdb_almonds": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Almonds",
+    "name_zh": "杏仁"
+  },
+  "mealdb_sugar": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Sugar",
+    "name_zh": "糖"
+  },
+  "mealdb_orange_blossom_water": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Orange Blossom Water",
+    "name_zh": "橙花水"
+  },
+  "mealdb_all_purpose_flour": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "All Purpose Flour",
+    "name_zh": "通用面粉"
+  },
+  "mealdb_pistachio": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Pistachio",
+    "name_zh": "开心果"
+  },
+  "mealdb_baking_powder": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Baking Powder",
+    "name_zh": "发酵粉"
+  },
+  "mealdb_vanilla": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Vanilla",
+    "name_zh": "香草"
+  },
+  "mealdb_cornstarch": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Cornstarch",
+    "name_zh": "玉米淀粉"
+  },
+  "mealdb_pine_nuts": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Pine Nuts",
+    "name_zh": "松子"
+  },
+  "mealdb_semolina_flour": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Semolina Flour",
+    "name_zh": "粗粒小麦粉"
+  },
+  "mealdb_sesame_seed": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Sesame Seed",
+    "name_zh": "芝麻"
+  },
+  "mealdb_yeast": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Yeast",
+    "name_zh": "酵母"
+  },
+  "mealdb_milk": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Milk",
+    "name_zh": "牛奶"
+  },
+  "mealdb_balsamic_vinegar": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Balsamic Vinegar",
+    "name_zh": "香醋"
+  },
+  "mealdb_dijon_mustard": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Dijon Mustard",
+    "name_zh": "第戎芥末"
+  },
+  "mealdb_chicken": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Chicken",
+    "name_zh": "鸡"
+  },
+  "mealdb_turmeric": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Turmeric",
+    "name_zh": "姜黄"
+  },
+  "mealdb_raisins": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Raisins",
+    "name_zh": "葡萄干"
+  },
+  "mealdb_chicken_stock": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Chicken Stock",
+    "name_zh": "鸡汤"
+  },
+  "mealdb_sweet_potatoes": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Sweet Potatoes",
+    "name_zh": "红薯"
+  },
+  "mealdb_prunes": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Prunes",
+    "name_zh": "西梅"
+  },
+  "mealdb_oil": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Oil",
+    "name_zh": "油"
+  },
+  "mealdb_hotsauce": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Hotsauce",
+    "name_zh": "辣酱"
+  },
+  "mealdb_buns": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Buns",
+    "name_zh": "包子"
+  },
+  "mealdb_cheese": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Cheese",
+    "name_zh": "奶酪"
+  },
+  "mealdb_mayonnaise": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Mayonnaise",
+    "name_zh": "蛋黄酱"
+  },
+  "mealdb_sour_cream": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Sour Cream",
+    "name_zh": "酸奶油"
+  },
+  "mealdb_eggs": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Eggs",
+    "name_zh": "鸡蛋"
+  },
+  "mealdb_vanilla_extract": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Vanilla Extract",
+    "name_zh": "香草精"
+  },
+  "mealdb_pecan_nuts": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Pecan Nuts",
+    "name_zh": "山核桃"
+  },
+  "mealdb_raspberries": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Raspberries",
+    "name_zh": "覆盆子"
+  },
+  "mealdb_bread": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Bread",
+    "name_zh": "面包"
+  },
+  "mealdb_barbeque_sauce": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Barbeque Sauce",
+    "name_zh": "烧烤酱"
+  },
+  "mealdb_tomato_ketchup": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Tomato Ketchup",
+    "name_zh": "番茄酱"
+  },
+  "mealdb_beef_brisket": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Beef Brisket",
+    "name_zh": "牛腩"
+  },
+  "mealdb_rosemary": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Rosemary",
+    "name_zh": "迷迭香"
+  },
+  "mealdb_bay_leaves": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Bay Leaves",
+    "name_zh": "月桂叶"
+  },
+  "mealdb_beef_stock": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Beef Stock",
+    "name_zh": "牛肉高汤"
+  },
+  "mealdb_mustard": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Mustard",
+    "name_zh": "芥末"
+  },
+  "mealdb_sesame_seed_burger_buns": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Sesame Seed Burger Buns",
+    "name_zh": "芝麻汉堡包"
+  },
+  "mealdb_iceberg_lettuce": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Iceberg Lettuce",
+    "name_zh": "卷心生菜"
+  },
+  "mealdb_dill_pickles": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Dill Pickles",
+    "name_zh": "莳萝泡菜"
+  },
+  "mealdb_white_wine_vinegar": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "White Wine Vinegar",
+    "name_zh": "白酒醋"
+  },
+  "mealdb_onion_salt": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Onion Salt",
+    "name_zh": "洋葱盐"
+  },
+  "mealdb_garlic_powder": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Garlic Powder",
+    "name_zh": "大蒜粉"
+  },
+  "mealdb_pickle_juice": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Pickle Juice",
+    "name_zh": "泡菜汁"
+  },
+  "mealdb_flour": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Flour",
+    "name_zh": "面粉"
+  },
+  "mealdb_icing_sugar": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Icing Sugar",
+    "name_zh": "糖粉"
+  },
+  "mealdb_celery_salt": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Celery Salt",
+    "name_zh": "芹菜盐"
+  },
+  "mealdb_macaroni": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Macaroni",
+    "name_zh": "通心粉"
+  },
+  "mealdb_heavy_cream": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Heavy Cream",
+    "name_zh": "重奶油"
+  },
+  "mealdb_fajita_seasoning": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Fajita Seasoning",
+    "name_zh": "法吉塔调味料"
+  },
+  "mealdb_cheddar_cheese": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Cheddar Cheese",
+    "name_zh": "切达干酪"
+  },
+  "mealdb_clams": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Clams",
+    "name_zh": "蛤蜊"
+  },
+  "mealdb_butter": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Butter",
+    "name_zh": "黄油"
+  },
+  "mealdb_bacon": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Bacon",
+    "name_zh": "熏肉"
+  },
+  "mealdb_plain_flour": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Plain Flour",
+    "name_zh": "普通面粉"
+  },
+  "mealdb_double_cream": {
+    "category": "pantry",
+    "nutrition_per_100g": {
+      "calories": 100,
+      "protein": 5,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 1
+    },
+    "price_per_kg": 5.0,
+    "availability": {
+      "UK": 0.5,
+      "CN": 0.5
+    },
+    "storage": {
+      "room_temp_days": null,
+      "refrigerated_days": 7,
+      "frozen_days": 90
+    },
+    "name": "Double Cream",
+    "name_zh": "双霜"
+  }
+}
