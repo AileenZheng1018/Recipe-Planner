@@ -1,0 +1,26 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.Python
+*.so
+.env
+.env.local
+
+# Node
+node_modules/
+web/node_modules/
+dist/
+*.local
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# 爬虫产出（可选，若希望只保留脚本可取消注释）
+# scripts/crawled_*.json

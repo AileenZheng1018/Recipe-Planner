@@ -1,0 +1,974 @@
+{
+  "chicken_broccoli_only": {
+    "name": "鸡胸西兰花",
+    "ingredients": {
+      "chicken_breast": 150,
+      "broccoli": 150
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "chicken_stir_fry": {
+    "name": "鸡胸炒时蔬",
+    "ingredients": {
+      "chicken_breast": 150,
+      "broccoli": 100,
+      "bell_pepper_red": 50,
+      "onion_yellow": 40,
+      "garlic": 5,
+      "ginger": 5,
+      "soy_sauce": 10
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "chicken_rice_bowl": {
+    "name": "鸡胸杂粮饭",
+    "ingredients": {
+      "chicken_breast": 120,
+      "white_rice": 80,
+      "broccoli": 80,
+      "carrots": 50,
+      "soy_sauce": 8
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "tofu_stir_fry": {
+    "name": "蒜香豆腐炒青菜",
+    "ingredients": {
+      "tofu_firm": 150,
+      "bok_choy": 120,
+      "garlic": 8,
+      "ginger": 5,
+      "soy_sauce": 10
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "tofu_broccoli": {
+    "name": "西兰花烧豆腐",
+    "ingredients": {
+      "tofu_firm": 150,
+      "broccoli": 150,
+      "garlic": 5,
+      "soy_sauce": 10
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "tofu_broccoli_only": {
+    "name": "豆腐西兰花",
+    "ingredients": {
+      "tofu_firm": 150,
+      "broccoli": 150
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "beef_brisket_noodle": {
+    "name": "牛腩汤面",
+    "ingredients": {
+      "beef_brisket": 100,
+      "instant_noodles_chinese": 90,
+      "bok_choy": 80,
+      "ginger": 5,
+      "garlic": 5
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "beef_mince_rice": {
+    "name": "牛肉末炒饭",
+    "ingredients": {
+      "beef_mince": 100,
+      "white_rice": 120,
+      "onion_yellow": 30,
+      "garlic": 5,
+      "soy_sauce": 8
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "salmon_baked": {
+    "name": "烤三文鱼配柠檬",
+    "ingredients": {
+      "salmon_atlantic": 150,
+      "lemon": 20,
+      "broccoli": 80
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "salmon_rice": {
+    "name": "三文鱼盖饭",
+    "ingredients": {
+      "salmon_atlantic": 120,
+      "white_rice": 100,
+      "cucumber": 50,
+      "soy_sauce": 8
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "jiaozi_meal": {
+    "name": "猪肉饺子餐",
+    "ingredients": {
+      "jiaozi_pork": 250,
+      "bok_choy": 80,
+      "soy_sauce": 10
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "wonton_soup": {
+    "name": "馄饨汤",
+    "ingredients": {
+      "wonton_pork": 200,
+      "napa_cabbage": 50,
+      "ginger": 5,
+      "bok_choy": 50
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "ramen_bowl": {
+    "name": "日式拉面",
+    "ingredients": {
+      "instant_noodles_japanese_ramen": 120,
+      "pork_loin": 60,
+      "eggplant": 60,
+      "green_bean": 40,
+      "soy_sauce": 10
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "korean_noodle_stir_fry": {
+    "name": "韩式辣炒面",
+    "ingredients": {
+      "instant_noodles_korean": 100,
+      "chicken_thigh": 80,
+      "bell_pepper_red": 50,
+      "onion_yellow": 30
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "indomie_egg": {
+    "name": "印尼炒面加蛋式",
+    "ingredients": {
+      "instant_noodles_indomie": 90,
+      "chicken_wing": 80,
+      "spinach": 50
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "pork_belly_rice": {
+    "name": "五花肉盖饭",
+    "ingredients": {
+      "pork_belly": 80,
+      "white_rice": 120,
+      "bok_choy": 80,
+      "soy_sauce": 10
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "shrimp_stir_fry": {
+    "name": "蒜香虾仁时蔬",
+    "ingredients": {
+      "shrimp": 120,
+      "green_bean": 80,
+      "bell_pepper_red": 50,
+      "garlic": 8
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "spinach_eggplant": {
+    "name": "菠菜茄子和蒜",
+    "ingredients": {
+      "spinach": 80,
+      "eggplant": 120,
+      "garlic": 8,
+      "tomato": 50
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "potato_carrot_chicken": {
+    "name": "土豆胡萝卜炖鸡腿",
+    "ingredients": {
+      "chicken_thigh": 120,
+      "potatoes": 100,
+      "carrots": 80,
+      "onion_yellow": 30
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "napa_cabbage_tofu_soup": {
+    "name": "白菜豆腐汤",
+    "ingredients": {
+      "napa_cabbage": 150,
+      "tofu_firm": 120,
+      "ginger": 5,
+      "garlic": 5
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "breakfast_oat_style": {
+    "name": "香蕉苹果早餐",
+    "ingredients": {
+      "bananas": 100,
+      "apples": 100,
+      "pear": 50
+    },
+    "servings": 1,
+    "meal_type": [
+      "breakfast"
+    ]
+  },
+  "avocado_toast_style": {
+    "name": "牛油果配番茄",
+    "ingredients": {
+      "avocado": 80,
+      "tomato": 60,
+      "lemon": 10
+    },
+    "servings": 1,
+    "meal_type": [
+      "breakfast"
+    ]
+  },
+  "fruit_salad": {
+    "name": "水果沙拉",
+    "ingredients": {
+      "oranges": 80,
+      "grapes": 60,
+      "strawberry": 50,
+      "apples": 50
+    },
+    "servings": 1,
+    "meal_type": [
+      "breakfast"
+    ]
+  },
+  "pasta_aglio_olio": {
+    "name": "意式蒜香橄榄油意面",
+    "ingredients": {
+      "pasta_spaghetti": 100,
+      "garlic": 15,
+      "olive_oil": 20,
+      "lemon": 15,
+      "bell_pepper_red": 30
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "pasta_tomato_basil": {
+    "name": "番茄罗勒意面",
+    "ingredients": {
+      "pasta_spaghetti": 100,
+      "tomato": 120,
+      "garlic": 8,
+      "olive_oil": 15,
+      "onion_yellow": 40
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "thai_stir_fry_shrimp": {
+    "name": "泰式虾仁炒",
+    "ingredients": {
+      "shrimp": 120,
+      "fish_sauce": 8,
+      "lime": 15,
+      "garlic": 6,
+      "bell_pepper_red": 60,
+      "green_bean": 50
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "thai_green_curry_tofu": {
+    "name": "泰式青咖喱豆腐",
+    "ingredients": {
+      "tofu_firm": 150,
+      "curry_paste_thai": 25,
+      "coconut_milk": 80,
+      "bell_pepper_red": 50,
+      "bok_choy": 60,
+      "lime": 10
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "miso_soup_tofu": {
+    "name": "日式味噌豆腐汤",
+    "ingredients": {
+      "miso_paste": 30,
+      "tofu_firm": 80,
+      "napa_cabbage": 60,
+      "ginger": 5,
+      "green_bean": 30
+    },
+    "servings": 1,
+    "meal_type": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ]
+  },
+  "teriyaki_salmon": {
+    "name": "照烧三文鱼",
+    "ingredients": {
+      "salmon_atlantic": 150,
+      "soy_sauce": 12,
+      "rice_vinegar": 8,
+      "ginger": 8,
+      "garlic": 5,
+      "sesame_oil": 5
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "black_bean_avocado_bowl": {
+    "name": "墨西哥黑豆牛油果碗",
+    "ingredients": {
+      "black_beans_canned": 120,
+      "avocado": 80,
+      "tomato": 60,
+      "lime": 20,
+      "onion_yellow": 30,
+      "garlic": 5
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "indian_curry_chickpea_style": {
+    "name": "印度风味咖喱时蔬",
+    "ingredients": {
+      "potatoes": 80,
+      "carrots": 60,
+      "tomato": 80,
+      "coconut_milk": 60,
+      "curry_powder": 8,
+      "onion_yellow": 50,
+      "garlic": 8,
+      "ginger": 5
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "chinese_oyster_sauce_greens": {
+    "name": "蚝油时蔬",
+    "ingredients": {
+      "bok_choy": 150,
+      "oyster_sauce": 15,
+      "garlic": 8,
+      "ginger": 5,
+      "sesame_oil": 5
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "kung_pao_chicken": {
+    "name": "宫保鸡丁",
+    "ingredients": {
+      "chicken_breast": 120,
+      "chili_garlic_paste": 15,
+      "rice_vinegar": 8,
+      "soy_sauce": 10,
+      "bell_pepper_red": 50,
+      "green_bean": 40,
+      "pear": 30
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "balsamic_glaze_chicken": {
+    "name": "意式香醋鸡胸",
+    "ingredients": {
+      "chicken_breast": 150,
+      "balsamic_vinegar": 15,
+      "olive_oil": 10,
+      "garlic": 6,
+      "tomato": 50
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "korean_style_tofu": {
+    "name": "韩式辣酱烧豆腐",
+    "ingredients": {
+      "tofu_firm": 150,
+      "chili_garlic_paste": 12,
+      "soy_sauce": 10,
+      "sesame_oil": 6,
+      "green_bean": 50,
+      "onion_yellow": 30
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "vietnamese_style_noodle": {
+    "name": "越式鱼露拌面",
+    "ingredients": {
+      "instant_noodles_chinese": 90,
+      "fish_sauce": 10,
+      "lime": 20,
+      "shrimp": 60,
+      "cucumber": 50,
+      "carrots": 40
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "mealdb_53284": {
+    "name": "Algerian Bouzgene Berber Bread with Roasted Pepper Sauce",
+    "ingredients": {
+      "bell_pepper_red": 5,
+      "tomato": 5,
+      "olive_oil": 16,
+      "garlic": 5,
+      "mealdb_jalapeno": 5,
+      "mealdb_salt": 610,
+      "mealdb_semolina": 908,
+      "mealdb_water": 720
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ],
+    "name_zh": "阿尔及利亚布兹金柏柏尔面包配烤辣椒酱"
+  },
+  "mealdb_53282": {
+    "name": "Algerian Carrots",
+    "ingredients": {
+      "mealdb_water": 26880,
+      "carrots": 908,
+      "olive_oil": 5,
+      "mealdb_salt": 5,
+      "mealdb_black_pepper": 12,
+      "mealdb_ground_cinnamon": 12,
+      "mealdb_ground_cumin": 12,
+      "garlic": 5,
+      "mealdb_thyme": 12,
+      "mealdb_bay_leaf": 5,
+      "mealdb_lemon_juice": 5
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ],
+    "name_zh": "阿尔及利亚胡萝卜"
+  },
+  "mealdb_53288": {
+    "name": "Algerian Flafla (Bell Pepper Salad)",
+    "ingredients": {
+      "bell_pepper_red": 5,
+      "olive_oil": 5,
+      "mealdb_red_onions": 5,
+      "garlic": 5,
+      "mealdb_salt": 50,
+      "mealdb_pepper": 50,
+      "mealdb_plum_tomatoes": 5
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ],
+    "name_zh": "阿尔及利亚 Flafla（甜椒沙拉）"
+  },
+  "mealdb_53281": {
+    "name": "Algerian Kefta (Meatballs)",
+    "ingredients": {
+      "beef_mince": 454,
+      "garlic": 5,
+      "onion_yellow": 2880,
+      "mealdb_salt": 50,
+      "mealdb_pepper": 50,
+      "mealdb_plum_tomatoes": 5,
+      "mealdb_parsley": 5,
+      "mealdb_water": 2880
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ],
+    "name_zh": "阿尔及利亚 Kefta（肉丸）"
+  },
+  "mealdb_53290": {
+    "name": "Cheese Borek",
+    "ingredients": {
+      "mealdb_egg": 5,
+      "mealdb_parsley": 5,
+      "garlic": 5,
+      "bell_pepper_red": 34,
+      "mealdb_gouda_cheese": 168,
+      "mealdb_emmentaler_cheese": 168,
+      "mealdb_phyllo_dough": 12,
+      "mealdb_unsalted_butter": 26880
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ],
+    "name_zh": "奶酪博雷克"
+  },
+  "mealdb_53289": {
+    "name": "Chorba Hamra bel Frik (Algerian Lamb, Tomato, and Freekeh Soup)",
+    "ingredients": {
+      "mealdb_freekeh": 240,
+      "mealdb_lamb": 12,
+      "onion_yellow": 5,
+      "mealdb_black_pepper": 5,
+      "mealdb_paprika": 5,
+      "mealdb_ground_cinnamon": 5,
+      "mealdb_salt": 50,
+      "olive_oil": 5,
+      "mealdb_cilantro": 5,
+      "mealdb_mint": 5,
+      "mealdb_celery": 5,
+      "mealdb_chickpeas": 392,
+      "mealdb_water": 960,
+      "mealdb_zucchini": 5,
+      "carrots": 5,
+      "mealdb_tomato_puree": 5,
+      "tomato": 5,
+      "potatoes": 5
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ],
+    "name_zh": "Chorba Hamra bel Frik（阿尔及利亚羊肉、番茄和 Freekeh 汤）"
+  },
+  "mealdb_53283": {
+    "name": "Chtitha Batata (Algerian Potato Stew)",
+    "ingredients": {
+      "garlic": 5,
+      "mealdb_red_chilli": 5,
+      "mealdb_ground_cumin": 5,
+      "mealdb_paprika": 5,
+      "mealdb_black_pepper": 12,
+      "mealdb_cayenne_pepper": 12,
+      "mealdb_salt": 62,
+      "olive_oil": 5,
+      "mealdb_new_potatoes": 908,
+      "mealdb_tomato_puree": 5,
+      "mealdb_water": 50
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ],
+    "name_zh": "Chtitha Batata（阿尔及利亚炖土豆）"
+  },
+  "mealdb_53291": {
+    "name": "Cornes de Gazelle (Gazelle Horns)",
+    "ingredients": {
+      "mealdb_almonds": 480,
+      "mealdb_sugar": 8165,
+      "mealdb_ground_cinnamon": 70,
+      "mealdb_egg": 10,
+      "mealdb_orange_blossom_water": 20,
+      "mealdb_all_purpose_flour": 480,
+      "mealdb_unsalted_butter": 2880,
+      "mealdb_salt": 5,
+      "olive_oil": 5,
+      "mealdb_pistachio": 5
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ],
+    "name_zh": "Cornes de Gazelle（瞪羚角）"
+  },
+  "mealdb_53285": {
+    "name": "Dziriat (Algerian Almond Tarts)",
+    "ingredients": {
+      "mealdb_sugar": 480,
+      "mealdb_water": 240,
+      "mealdb_lemon_juice": 17,
+      "mealdb_orange_blossom_water": 15,
+      "mealdb_all_purpose_flour": 480,
+      "olive_oil": 5,
+      "mealdb_egg": 10,
+      "mealdb_salt": 5,
+      "mealdb_almonds": 960,
+      "mealdb_baking_powder": 12,
+      "mealdb_vanilla": 5,
+      "lemon": 5,
+      "mealdb_cornstarch": 5,
+      "mealdb_pine_nuts": 50
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ],
+    "name_zh": "Dziriat（阿尔及利亚杏仁馅饼）"
+  },
+  "mealdb_53286": {
+    "name": "Khobz el Dar (Algerian Semolina Bread)",
+    "ingredients": {
+      "mealdb_semolina_flour": 2885,
+      "mealdb_sesame_seed": 5,
+      "mealdb_sugar": 5,
+      "mealdb_yeast": 5,
+      "mealdb_salt": 34,
+      "olive_oil": 3360,
+      "mealdb_egg": 10,
+      "mealdb_milk": 240,
+      "mealdb_all_purpose_flour": 725,
+      "mealdb_water": 5
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ],
+    "name_zh": "Khobz el Dar（阿尔及利亚粗面粉面包）"
+  },
+  "mealdb_53280": {
+    "name": "Poulet Roti a l'Algerienne (Algerian Roast Chicken)",
+    "ingredients": {
+      "mealdb_water": 240,
+      "onion_yellow": 5,
+      "olive_oil": 5,
+      "mealdb_balsamic_vinegar": 5,
+      "mealdb_dijon_mustard": 5,
+      "garlic": 5,
+      "mealdb_black_pepper": 5,
+      "mealdb_cayenne_pepper": 5,
+      "mealdb_salt": 50,
+      "mealdb_chicken": 5
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ],
+    "name_zh": "Poulet Roti a l'Algerienne（阿尔及利亚烤鸡）"
+  },
+  "mealdb_53287": {
+    "name": "Tajine de Poulet aux Carottes et Patates Douces (Chicken and Sweet Potato Tagine)",
+    "ingredients": {
+      "onion_yellow": 5,
+      "mealdb_celery": 5,
+      "mealdb_cilantro": 12,
+      "mealdb_parsley": 12,
+      "mealdb_turmeric": 60,
+      "mealdb_ground_cumin": 60,
+      "mealdb_paprika": 12,
+      "ginger": 70,
+      "mealdb_cayenne_pepper": 70,
+      "mealdb_salt": 50,
+      "mealdb_black_pepper": 50,
+      "chicken_thigh": 5,
+      "olive_oil": 50,
+      "mealdb_raisins": 3360,
+      "mealdb_chicken_stock": 240,
+      "mealdb_sweet_potatoes": 5,
+      "carrots": 5,
+      "mealdb_prunes": 3360
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ],
+    "name_zh": "Tajine de Poulet aux Carottes et Patates Douces（鸡肉和甘薯塔吉锅）"
+  },
+  "mealdb_53085": {
+    "name": "15-minute chicken & halloumi burgers",
+    "ingredients": {
+      "chicken_breast": 5,
+      "mealdb_oil": 15,
+      "mealdb_hotsauce": 60,
+      "mealdb_lemon_juice": 50,
+      "mealdb_buns": 5,
+      "mealdb_cheese": 250,
+      "napa_cabbage": 50,
+      "mealdb_mayonnaise": 30,
+      "mealdb_sour_cream": 60,
+      "romaine_lettuce": 5,
+      "bell_pepper_red": 5
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ],
+    "name_zh": "15 分钟鸡肉和哈罗米汉堡"
+  },
+  "mealdb_52855": {
+    "name": "Banana Pancakes",
+    "ingredients": {
+      "bananas": 5,
+      "mealdb_eggs": 5,
+      "mealdb_baking_powder": 50,
+      "mealdb_vanilla_extract": 5,
+      "mealdb_oil": 5,
+      "mealdb_pecan_nuts": 25,
+      "mealdb_raspberries": 125
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ],
+    "name_zh": "香蕉煎饼"
+  },
+  "mealdb_52995": {
+    "name": "BBQ Pork Sloppy Joes",
+    "ingredients": {
+      "potatoes": 5,
+      "mealdb_red_onions": 5,
+      "garlic": 5,
+      "lime": 5,
+      "mealdb_bread": 5,
+      "pork_loin": 454,
+      "mealdb_barbeque_sauce": 50,
+      "mealdb_hotsauce": 50,
+      "mealdb_tomato_ketchup": 50,
+      "mealdb_sugar": 50,
+      "olive_oil": 50,
+      "mealdb_salt": 50,
+      "mealdb_pepper": 50
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ],
+    "name_zh": "烧烤猪肉马虎乔"
+  },
+  "mealdb_52812": {
+    "name": "Beef Brisket Pot Roast",
+    "ingredients": {
+      "mealdb_beef_brisket": 45,
+      "mealdb_salt": 50,
+      "onion_yellow": 5,
+      "garlic": 5,
+      "mealdb_thyme": 5,
+      "mealdb_rosemary": 5,
+      "mealdb_bay_leaves": 5,
+      "mealdb_beef_stock": 480,
+      "carrots": 5,
+      "mealdb_mustard": 15,
+      "potatoes": 5
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ],
+    "name_zh": "牛腩锅烤"
+  },
+  "mealdb_53013": {
+    "name": "Big Mac",
+    "ingredients": {
+      "beef_mince": 400,
+      "olive_oil": 5,
+      "mealdb_sesame_seed_burger_buns": 5,
+      "onion_yellow": 50,
+      "mealdb_iceberg_lettuce": 14,
+      "mealdb_cheese": 5,
+      "mealdb_dill_pickles": 5,
+      "mealdb_mayonnaise": 240,
+      "mealdb_white_wine_vinegar": 10,
+      "mealdb_pepper": 50,
+      "mealdb_mustard": 10,
+      "mealdb_onion_salt": 560,
+      "mealdb_garlic_powder": 560,
+      "mealdb_paprika": 60
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ],
+    "name_zh": "巨无霸"
+  },
+  "mealdb_53016": {
+    "name": "Chick-Fil-A Sandwich",
+    "ingredients": {
+      "chicken_breast": 5,
+      "mealdb_pickle_juice": 3360,
+      "mealdb_egg": 5,
+      "mealdb_milk": 3360,
+      "mealdb_flour": 2880,
+      "mealdb_icing_sugar": 5,
+      "mealdb_paprika": 60,
+      "mealdb_salt": 60,
+      "mealdb_black_pepper": 70,
+      "mealdb_garlic_powder": 70,
+      "mealdb_celery_salt": 70,
+      "mealdb_cayenne_pepper": 60,
+      "olive_oil": 240,
+      "mealdb_sesame_seed_burger_buns": 5
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ],
+    "name_zh": "福来鸡三明治"
+  },
+  "mealdb_52818": {
+    "name": "Chicken Fajita Mac and Cheese",
+    "ingredients": {
+      "mealdb_macaroni": 500,
+      "mealdb_chicken_stock": 480,
+      "mealdb_heavy_cream": 2880,
+      "mealdb_fajita_seasoning": 5,
+      "mealdb_salt": 5,
+      "chicken_breast": 5,
+      "olive_oil": 30,
+      "onion_yellow": 5,
+      "bell_pepper_red": 5,
+      "garlic": 5,
+      "mealdb_cheddar_cheese": 240,
+      "mealdb_parsley": 5
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ],
+    "name_zh": "鸡肉法吉塔通心粉和奶酪"
+  },
+  "mealdb_52840": {
+    "name": "Clam chowder",
+    "ingredients": {
+      "mealdb_clams": 5,
+      "mealdb_butter": 50,
+      "mealdb_bacon": 150,
+      "onion_yellow": 5,
+      "mealdb_thyme": 5,
+      "mealdb_bay_leaf": 5,
+      "mealdb_plain_flour": 5,
+      "mealdb_milk": 150,
+      "mealdb_double_cream": 150,
+      "potatoes": 5,
+      "mealdb_parsley": 50
+    },
+    "servings": 1,
+    "meal_type": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "name_zh": "蛤蜊浓汤"
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "mealdb_53284": {
+    "name": "Algerian Bouzgene Berber Bread with Roasted Pepper Sauce",
+    "name_zh": "Algerian Bouzgene Berber Bread with Roasted Pepper Sauce",
+    "ingredients": {
+      "bell_pepper_red": 5,
+      "tomato": 5,
+      "olive_oil": 165,
+      "garlic": 20
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "mealdb_53282": {
+    "name": "Algerian Carrots",
+    "name_zh": "Algerian Carrots",
+    "ingredients": {
+      "carrots": 908,
+      "olive_oil": 75,
+      "garlic": 15
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "mealdb_53288": {
+    "name": "Algerian Flafla (Bell Pepper Salad)",
+    "name_zh": "Algerian Flafla (Bell Pepper Salad)",
+    "ingredients": {
+      "bell_pepper_red": 5,
+      "olive_oil": 15,
+      "garlic": 5
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "mealdb_53281": {
+    "name": "Algerian Kefta (Meatballs)",
+    "name_zh": "Algerian Kefta (Meatballs)",
+    "ingredients": {
+      "beef_mince": 454,
+      "garlic": 20,
+      "onion_yellow": 120
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "mealdb_53290": {
+    "name": "Cheese Borek",
+    "name_zh": "Cheese Borek",
+    "ingredients": {
+      "garlic": 10,
+      "bell_pepper_red": 5
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "mealdb_53289": {
+    "name": "Chorba Hamra bel Frik (Algerian Lamb, Tomato, and Freekeh Soup)",
+    "name_zh": "Chorba Hamra bel Frik (Algerian Lamb, Tomato, and Freekeh Soup)",
+    "ingredients": {
+      "onion_yellow": 5,
+      "olive_oil": 45,
+      "carrots": 5,
+      "tomato": 5,
+      "potatoes": 5
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "mealdb_53283": {
+    "name": "Chtitha Batata (Algerian Potato Stew)",
+    "name_zh": "Chtitha Batata (Algerian Potato Stew)",
+    "ingredients": {
+      "garlic": 20,
+      "olive_oil": 30
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "mealdb_53291": {
+    "name": "Cornes de Gazelle (Gazelle Horns)",
+    "name_zh": "Cornes de Gazelle (Gazelle Horns)",
+    "ingredients": {
+      "olive_oil": 45
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "mealdb_53285": {
+    "name": "Dziriat (Algerian Almond Tarts)",
+    "name_zh": "Dziriat (Algerian Almond Tarts)",
+    "ingredients": {
+      "olive_oil": 30,
+      "lemon": 5
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "mealdb_53286": {
+    "name": "Khobz el Dar (Algerian Semolina Bread)",
+    "name_zh": "Khobz el Dar (Algerian Semolina Bread)",
+    "ingredients": {
+      "olive_oil": 60
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "mealdb_53280": {
+    "name": "Poulet Roti a l'Algerienne (Algerian Roast Chicken)",
+    "name_zh": "Poulet Roti a l'Algerienne (Algerian Roast Chicken)",
+    "ingredients": {
+      "onion_yellow": 5,
+      "olive_oil": 75,
+      "garlic": 15
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "mealdb_53287": {
+    "name": "Tajine de Poulet aux Carottes et Patates Douces (Chicken and Sweet Potato Tagine)",
+    "name_zh": "Tajine de Poulet aux Carottes et Patates Douces (Chicken and Sweet Potato Tagine)",
+    "ingredients": {
+      "onion_yellow": 60,
+      "ginger": 5,
+      "chicken_thigh": 5,
+      "olive_oil": 50,
+      "carrots": 90
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "mealdb_53085": {
+    "name": "15-minute chicken & halloumi burgers",
+    "name_zh": "15-minute chicken & halloumi burgers",
+    "ingredients": {
+      "chicken_breast": 5,
+      "napa_cabbage": 50,
+      "romaine_lettuce": 5,
+      "bell_pepper_red": 5
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "mealdb_52855": {
+    "name": "Banana Pancakes",
+    "name_zh": "Banana Pancakes",
+    "ingredients": {
+      "bananas": 5
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "mealdb_52995": {
+    "name": "BBQ Pork Sloppy Joes",
+    "name_zh": "BBQ Pork Sloppy Joes",
+    "ingredients": {
+      "potatoes": 5,
+      "garlic": 10,
+      "lime": 5,
+      "pork_loin": 454,
+      "olive_oil": 50
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "mealdb_52812": {
+    "name": "Beef Brisket Pot Roast",
+    "name_zh": "Beef Brisket Pot Roast",
+    "ingredients": {
+      "onion_yellow": 5,
+      "garlic": 25,
+      "carrots": 5,
+      "potatoes": 5
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "mealdb_53013": {
+    "name": "Big Mac",
+    "name_zh": "Big Mac",
+    "ingredients": {
+      "beef_mince": 400,
+      "olive_oil": 30,
+      "onion_yellow": 50
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "mealdb_53016": {
+    "name": "Chick-Fil-A Sandwich",
+    "name_zh": "Chick-Fil-A Sandwich",
+    "ingredients": {
+      "chicken_breast": 5,
+      "olive_oil": 240
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "mealdb_52818": {
+    "name": "Chicken Fajita Mac and Cheese",
+    "name_zh": "Chicken Fajita Mac and Cheese",
+    "ingredients": {
+      "chicken_breast": 5,
+      "olive_oil": 30,
+      "onion_yellow": 5,
+      "bell_pepper_red": 5,
+      "garlic": 10
+    },
+    "servings": 1,
+    "meal_type": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  "mealdb_52840": {
+    "name": "Clam chowder",
+    "name_zh": "Clam chowder",
+    "ingredients": {
+      "onion_yellow": 5,
+      "potatoes": 5
+    },
+    "servings": 1,
+    "meal_type": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ]
+  }
+}

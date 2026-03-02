@@ -1,0 +1,106 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+/* Login */
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+.login-page h1 {
+  margin-bottom: 1.5rem;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 100%;
+  max-width: 320px;
+}
+.login-form input {
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #444;
+  font-size: 1rem;
+}
+.login-form button[type="submit"] {
+  margin-top: 0.5rem;
+}
+.login-form .link {
+  background: transparent;
+  color: #646cff;
+  border: none;
+  font-size: 0.9rem;
+}
+.login-page .error {
+  color: #e57373;
+  margin-top: 1rem;
+}
+.login-page .success {
+  color: #81c784;
+  margin-top: 1rem;
+}
+
+/* Dashboard */
+.dashboard {
+  text-align: left;
+}
+.dashboard header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+.dashboard header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+.dashboard .user {
+  color: #888;
+  font-size: 0.9rem;
+}
+.dashboard header button {
+  margin-left: auto;
+}
+.inventory-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem;
+}
+.inventory-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #333;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.inventory-list .priority {
+  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  background: #333;
+}
+.inventory-list .priority.high {
+  background: #c62828;
+  color: #fff;
+}
+.inventory-list .empty {
+  color: #888;
+  border: none;
+}
+.dashboard .hint {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+}
