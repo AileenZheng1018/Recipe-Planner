@@ -59,15 +59,20 @@ def build_constraints(
     )
 
 
-# 库存: ingredient_id -> { quantity_g, priority: "high"|"normal" }
+# 库存: ingredient_id -> { quantity, priority, days_since_purchase?, storage_type? }
 def normalize_inventory(raw: dict[str, Any]) -> dict[str, dict]:
     out = {}
     for k, v in raw.items():
         if isinstance(v, dict):
+            q = int(v.get("quantity", v.get("quantity_g", 0)))
             out[k] = {
-                "quantity": int(v.get("quantity", v.get("quantity_g", 0))),
+                "quantity": q,
                 "priority": v.get("priority", "normal"),
             }
+            if "days_since_purchase" in v and v["days_since_purchase"] is not None:
+                out[k]["days_since_purchase"] = int(v["days_since_purchase"])
+            if v.get("storage_type") in ("room_temp", "refrigerated", "frozen"):
+                out[k]["storage_type"] = v["storage_type"]
         else:
             out[k] = {"quantity": int(v), "priority": "normal"}
     return out
@@ -168,8 +173,99 @@ def build_meal_candidates(
 
 
 # ---------------------------------------------------------------------------
-# 4. 评分与优化
+# 4. 评分组件（可单独测试与调参）
 # ---------------------------------------------------------------------------
+
+def macro_penalty(
+    candidate: dict,
+    day_remaining_cal: float,
+    day_remaining_protein: float,
+) -> float:
+    """宏量惩罚：当日热量超标或蛋白不足时加分（惩罚）。"""
+    nut = candidate["nutrition"]
+    p = 0.0
+    if day_remaining_cal < nut["calories"]:
+        p += 20.0
+    if day_remaining_protein > 0 and nut["protein"] < day_remaining_protein * 0.3:
+        p += 5.0
+    return p
+
+
+def budget_penalty(cost: float, total_cost_so_far: float, budget_weekly: float) -> float:
+    """预算惩罚：本餐成本超过剩余预算时加分。"""
+    if cost > max(0, budget_weekly - total_cost_so_far):
+        return 15.0
+    return 0.0
+
+
+def availability_penalty(candidate: dict) -> float:
+    """可用性惩罚：难购食材已在 recipe_nutrition_and_cost 中算好。"""
+    return candidate["availability_penalty"] * 2.0
+
+
+def inventory_usage_score(candidate: dict, inventory: dict[str, dict]) -> float:
+    """库存使用奖励：有库存则加分，high priority 更高。"""
+    reward = 0.0
+    for ing_id, grams in candidate["ingredients"].items():
+        inv = inventory.get(ing_id, {})
+        if inv.get("quantity", 0) > 0:
+            reward += (grams / 100.0) * (2.0 if inv.get("priority") == "high" else 1.0)
+    return reward * 0.01
+
+
+def freshness_adjustment(
+    candidate: dict,
+    inventory: dict[str, dict],
+    ingredients_db: dict[str, Any],
+) -> float:
+    """
+    新鲜度/urgency 加分：优先消耗快过期的库存。
+    若库存有 days_since_purchase，且食材有 storage.*_days，则剩余天数越少加分越多。
+    """
+    bonus = 0.0
+    for ing_id, grams in candidate["ingredients"].items():
+        inv = inventory.get(ing_id, {})
+        q = inv.get("quantity", 0)
+        if q <= 0:
+            continue
+        days = inv.get("days_since_purchase")
+        if days is None:
+            continue
+        ing = ingredients_db.get(ing_id, {})
+        storage = ing.get("storage") or {}
+        st = inv.get("storage_type") or "refrigerated"
+        shelf_days = storage.get("refrigerated_days") or storage.get("room_temp_days") or storage.get("frozen_days")
+        if st == "frozen":
+            shelf_days = storage.get("frozen_days") or shelf_days
+        elif st == "room_temp":
+            shelf_days = storage.get("room_temp_days") or shelf_days
+        if shelf_days is None or shelf_days <= 0:
+            continue
+        remaining = shelf_days - days
+        if remaining <= 3:
+            bonus += (grams / 100.0) * 0.05
+        elif remaining <= 7:
+            bonus += (grams / 100.0) * 0.02
+    return bonus
+
+
+def new_ingredient_penalty(
+    candidate: dict,
+    inventory: dict[str, dict],
+    new_ingredients_so_far: set[str],
+    max_new_ingredients: int,
+) -> float:
+    """新食材种类惩罚。"""
+    new_from_this = set(candidate["ingredients"].keys()) - set(inventory.keys())
+    if len(new_ingredients_so_far) >= max_new_ingredients and new_from_this:
+        return 100.0
+    return len(new_from_this) * 18.0
+
+
+def diversity_penalty(recipe_id: str, recipe_counts: dict[str, int]) -> float:
+    """多样性惩罚：本周已选次数越多分越低。"""
+    return 10.0 * recipe_counts.get(recipe_id, 0)
+
 
 def score_recipe(
     candidate: dict,
@@ -182,53 +278,33 @@ def score_recipe(
     new_ingredients_so_far: set[str],
     recipe_counts: dict[str, int] | None = None,
     user_recipe_scores: dict[str, float] | None = None,
+    ingredients_db: dict[str, Any] | None = None,
 ) -> float:
     """
-    Score = InventoryUsageReward - NewIngredientPenalty - AvailabilityPenalty
-            - MacroPenalty - BudgetPenalty - DiversityPenalty + UserPreferenceBonus
-    越高越好。user_recipe_scores: 根据使用数据（做过次数、点赞等）给的加分，由后端/前端传入。
+    score = inventory_usage_score + freshness_adjustment
+            - macro_penalty - budget_penalty - availability_penalty
+            - new_ingredient_penalty - diversity_penalty
+            + user_preference_bonus
+    越高越好。
     """
-    region = constraints.region
     ings = candidate["ingredients"]
     nut = candidate["nutrition"]
     cost = candidate["cost"]
-    # 1) 库存使用奖励（优先消耗 high priority + 有库存的）
-    usage_reward = 0.0
-    for ing_id, grams in ings.items():
-        inv = inventory.get(ing_id, {})
-        q = inv.get("quantity", 0)
-        if q > 0:
-            prio = inv.get("priority", "normal")
-            usage_reward += (grams / 100.0) * (2.0 if prio == "high" else 1.0)
-    usage_reward *= 0.01
-    # 2) 新食材惩罚（本餐会引入的新种类数）- 权重大以优先用库存、控制种类
-    new_from_this = set(ings.keys()) - set(inventory.keys())
-    already_new = len(new_ingredients_so_far)
-    if already_new >= constraints.max_new_ingredients and new_from_this:
-        new_penalty = 100.0
-    else:
-        new_penalty = len(new_from_this) * 18.0
-    # 3) 可用性惩罚（当前地区难买的食材会拉高 penalty，见 ingredients.availability.UK/CN）
-    avail_penalty = candidate["availability_penalty"] * 2.0
-    # 4) 宏量惩罚：若本餐导致当日超标或蛋白不足
-    cal_ok = day_remaining_cal >= nut["calories"]
-    pro_ok = day_remaining_protein <= nut["protein"] or day_remaining_protein <= 0
-    macro_penalty = 0.0
-    if not cal_ok:
-        macro_penalty += 20.0
-    if day_remaining_protein > 0 and nut["protein"] < day_remaining_protein * 0.3:
-        macro_penalty += 5.0  # 鼓励选高蛋白餐满足当日目标
-    # 5) 预算惩罚
-    budget_left = constraints.budget_weekly - total_cost_so_far
-    budget_penalty = 0.0
-    if cost > budget_left:
-        budget_penalty += 15.0
-    # 6) 多样性：已选过的配方明显降分，避免一周内重复过多
     recipe_counts = recipe_counts or {}
-    diversity_penalty = 10.0 * recipe_counts.get(candidate["recipe_id"], 0)
-    # 7) 根据使用数据调整偏好：做过/点赞过的菜加分
-    preference_bonus = (user_recipe_scores or {}).get(candidate["recipe_id"], 0.0)
-    return usage_reward - new_penalty - avail_penalty - macro_penalty - budget_penalty - diversity_penalty + preference_bonus
+    ingredients_db = ingredients_db or {}
+
+    usage = inventory_usage_score(candidate, inventory)
+    freshness = freshness_adjustment(candidate, inventory, ingredients_db)
+    macro = macro_penalty(candidate, day_remaining_cal, day_remaining_protein)
+    budget = budget_penalty(cost, total_cost_so_far, constraints.budget_weekly)
+    avail = availability_penalty(candidate)
+    new_ing = new_ingredient_penalty(
+        candidate, inventory, new_ingredients_so_far, constraints.max_new_ingredients
+    )
+    div = diversity_penalty(candidate["recipe_id"], recipe_counts)
+    pref = (user_recipe_scores or {}).get(candidate["recipe_id"], 0.0)
+
+    return usage + freshness - macro - budget - avail - new_ing - div + pref
 
 
 def _get_primary_meal(m: dict) -> dict | None:
@@ -287,6 +363,7 @@ def plan_week(
                     day_cal, day_protein, total_cost, new_ingredients_used,
                     recipe_counts,
                     user_recipe_scores,
+                    ingredients_db=ingredients_db,
                 )
                 scored.append((sc, c))
 
@@ -362,6 +439,48 @@ def plan_week(
                 explanations.append(f"Day {day} {meal_type}: {best['name']} — 优先消耗库存: {', '.join(prio_used)}")
 
         daily_meals.append(day_meals)
+
+    # 约束修复：若超预算或蛋白严重不足，尝试替换一餐以改善（多轮 refinement，最多 2 轮）
+    for _refine_round in range(2):
+        total_cost_after = sum(
+            _get_primary_meal(d.get(mt))["cost"]
+            for d in daily_meals
+            for mt in ["breakfast", "lunch", "dinner"]
+            if _get_primary_meal(d.get(mt))
+        )
+        over_budget = total_cost_after > constraints.budget_weekly
+        # 找一周中成本最高的一餐尝试替换为更便宜且同 meal_type 的候选
+        if over_budget:
+            worst_day, worst_mt, worst_cost = None, None, -1.0
+            for d in daily_meals:
+                for mt in ["breakfast", "lunch", "dinner"]:
+                    m = _get_primary_meal(d.get(mt))
+                    if m and m["cost"] > worst_cost:
+                        worst_cost = m["cost"]
+                        worst_day, worst_mt = d, mt
+            if worst_day is not None and worst_cost > 0:
+                current_rid = _get_primary_meal(worst_day[worst_mt])["recipe_id"]
+                cheaper = [
+                    c for c in candidates
+                    if c["meal_type"] == worst_mt
+                    and c["recipe_id"] != current_rid
+                    and c["cost"] < worst_cost
+                ]
+                if cheaper:
+                    cheaper.sort(key=lambda x: x["cost"])
+                    new_choice = cheaper[0]
+                    worst_day[worst_mt] = {
+                        "options": [{
+                            "name": new_choice["name"],
+                            "name_zh": new_choice.get("name_zh") or new_choice["name"],
+                            "recipe_id": new_choice["recipe_id"],
+                            "nutrition": new_choice["nutrition"],
+                            "cost": new_choice["cost"],
+                        }],
+                        "chosen_index": 0,
+                    }
+                    continue
+        break
 
     total_needed: dict[str, float] = {}
     for day_meals in daily_meals:

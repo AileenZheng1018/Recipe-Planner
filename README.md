@@ -193,10 +193,32 @@ print(format_plan(daily_meals, shopping_list, new_ingredients, explanations, loa
 2. **库存**：带数量与优先级（high = 快过期/已开封，优先消耗）。
 3. **评分**：库存使用奖励 − 新食材惩罚 − 地区可用性惩罚 − 宏量/预算惩罚 − 重复配方惩罚；在满足「新食材种类 ≤ 上限」下贪心选餐。
 4. **新食材硬上限**：单周新引入种类不超过 `max_new_ingredients`，超出的候选直接跳过；fallback 时也只选不超剩余配额的候选。
+5. **评分组件**：`macro_penalty`、`budget_penalty`、`availability_penalty`、`inventory_usage_score`、`freshness_adjustment` 等独立函数，便于单测与调参；超预算时会做多轮 refinement 尝试替换高价餐以满足约束。
+
+## 数据模型与 API 规范
+
+- **数据模型**：`docs/DATA_SCHEMA.md` 定义了食材（`nutrition_per_100g`、`price_per_kg`、`storage`）、食谱、库存的字段规范，保证 scoring 与宏量计算一致。
+- **库存时间维度**：库存支持 `days_since_purchase`、`storage_type`（room_temp/refrigerated/frozen），用于 urgency/新鲜度加分；数据库见 `supabase/migrations/007_inventory_storage_and_freshness.sql`。
+- **API Schema**：后端 FastAPI 使用 Pydantic 定义请求/响应类型，`POST /api/plan` 返回 `PlanResponse`（daily_meals、shopping_list、new_ingredients、explanations）；OpenAPI 文档见运行后 `http://localhost:8000/docs` 或 `/openapi.json`。
+
+## 测试
+
+在**项目根目录**（包含 `tests/`、`agent.py`、`web/` 的目录）运行：
+
+```bash
+pip install pytest
+cd "/path/to/Recipe Planner"   # 或从 web 目录执行 cd ..
+python -m pytest tests/ -v
+```
+
+- **tests/test_nutrition.py**：营养与成本计算、macro/budget/availability 惩罚。
+- **tests/test_inventory.py**：库存归一化、优先消耗、新鲜度 urgency、新食材惩罚。
+- **tests/test_plan.py**：计划生成（七天、餐位、购物清单）与候选结构。
 
 ## 依赖
 
-仅用 Python 3 标准库（`json`, `pathlib`, `copy`, `dataclasses`），无需 `pip install`。
+- **Agent**：Python 3 标准库为主；可选 `deep-translator`（食谱名运行时翻译）。
+- **测试**：`pytest>=7.0`（见 `requirements.txt`）。
 
 ---
 

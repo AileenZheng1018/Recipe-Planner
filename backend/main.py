@@ -12,9 +12,11 @@ ROOT = Path(__file__).resolve().parent.parent
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
+from typing import Any
+
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 from agent import (
     load_ingredients,
@@ -24,7 +26,11 @@ from agent import (
     plan_week,
 )
 
-app = FastAPI(title="Recipe Planner API")
+app = FastAPI(
+    title="Recipe Planner API",
+    description="根据库存与营养约束生成一周餐单与购物清单。OpenAPI schema 见 /openapi.json。",
+    version="1.0.0",
+)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -37,6 +43,8 @@ app.add_middleware(
 class InventoryItem(BaseModel):
     quantity_g: int
     priority: str = "normal"
+    days_since_purchase: int | None = Field(None, description="购买后天数，用于 urgency/新鲜度")
+    storage_type: str | None = Field(None, description="room_temp | refrigerated | frozen")
 
 
 class ConstraintsBody(BaseModel):
@@ -52,8 +60,59 @@ class PlanRequest(BaseModel):
     inventory: dict[str, InventoryItem]
     constraints: ConstraintsBody | None = None
     recipe_preference_scores: dict[str, float] | None = None
-    """每餐返回的候选数量，>1 时前端可多选一并记录偏好，默认 5"""
-    options_per_slot: int = 5
+    options_per_slot: int = Field(5, description="每餐返回的候选数量，>1 时前端可多选一并记录偏好")
+
+
+# ---------- API 响应 Schema（OpenAPI 文档与前端契约） ----------
+
+
+class NutritionOut(BaseModel):
+    """每餐营养（每份）：统一按 100g 聚合后的 per-serving。"""
+    calories: float
+    protein: float
+    carbs: float
+    fat: float
+    fiber: float
+
+
+class MealOptionOut(BaseModel):
+    """单餐一个候选：名称、食谱 ID、营养、成本。"""
+    name: str
+    name_zh: str | None = None
+    recipe_id: str
+    nutrition: dict[str, float]  # 兼容 NutritionOut 的 dict
+    cost: float
+
+
+class SlotMealOut(BaseModel):
+    """某餐位：多候选 + 当前选中下标。"""
+    options: list[MealOptionOut]
+    chosen_index: int = 0
+
+
+class DayMealsOut(BaseModel):
+    """单日餐单：breakfast/lunch/dinner 可为 null 或 SlotMealOut。"""
+    day: int
+    breakfast: SlotMealOut | None = None
+    lunch: SlotMealOut | None = None
+    dinner: SlotMealOut | None = None
+
+
+class ShoppingListItemOut(BaseModel):
+    """购物清单一项。"""
+    ingredient_id: str
+    grams: float
+    suggested_grams: float | None = None
+    suggested_price: float | None = None
+    user_fill: bool = True
+
+
+class PlanResponse(BaseModel):
+    """POST /api/plan 返回结构。"""
+    daily_meals: list[dict[str, Any]] = Field(..., description="每日餐单，每项含 day, breakfast, lunch, dinner")
+    shopping_list: list[ShoppingListItemOut] = Field(..., description="需补购食材列表")
+    new_ingredients: list[str] = Field(..., description="本周计划中新引入的食材 ID")
+    explanations: list[str] = Field(default_factory=list, description="规划说明（如优先消耗库存）")
 
 
 def _load_recipe_steps() -> dict:
@@ -130,9 +189,9 @@ def _best_purchase_option(need_grams: float, options: list[dict]) -> tuple[float
     return (best_grams, best_price) if best_grams is not None else (None, None)
 
 
-@app.post("/api/plan")
-def api_plan(body: PlanRequest):
-    """根据库存与约束生成一周餐单与购物清单。"""
+@app.post("/api/plan", response_model=PlanResponse)
+def api_plan(body: PlanRequest) -> PlanResponse:
+    """根据库存与约束生成一周餐单与购物清单。返回结构见 PlanResponse（OpenAPI schema）。"""
     try:
         ingredients_db = load_ingredients()
         recipes_db = load_recipes()
@@ -144,6 +203,10 @@ def api_plan(body: PlanRequest):
         q = v.quantity_g if hasattr(v, "quantity_g") else (v.get("quantity_g", 0) if isinstance(v, dict) else 0)
         p = v.priority if hasattr(v, "priority") else (v.get("priority", "normal") if isinstance(v, dict) else "normal")
         inv_raw[ing_id] = {"quantity": q, "priority": p}
+        if hasattr(v, "days_since_purchase") and getattr(v, "days_since_purchase") is not None:
+            inv_raw[ing_id]["days_since_purchase"] = v.days_since_purchase
+        if getattr(v, "storage_type", None) in ("room_temp", "refrigerated", "frozen"):
+            inv_raw[ing_id]["storage_type"] = v.storage_type
     inventory = normalize_inventory(inv_raw)
 
     c = body.constraints or ConstraintsBody()
@@ -187,9 +250,9 @@ def api_plan(body: PlanRequest):
                 "user_fill": True,
             })
 
-    return {
-        "daily_meals": daily_meals,
-        "shopping_list": shopping_list_arr,
-        "new_ingredients": list(new_ingredients),
-        "explanations": explanations,
-    }
+    return PlanResponse(
+        daily_meals=daily_meals,
+        shopping_list=[ShoppingListItemOut(**x) for x in shopping_list_arr],
+        new_ingredients=list(new_ingredients),
+        explanations=explanations,
+    )
